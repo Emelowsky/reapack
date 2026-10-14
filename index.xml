@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index version="1" name="Emelowsky">
+  <category name="Emelowsky">
+    <reapack name="Emelowsky - Plugin Shelf for REAPER.lua" type="script" desc="Emelowsky - Plugin Shelf for REAPER">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi
+Plugin Shelf for REAPER\par
+A visual plugin browser: your plugins and FX chains as thumbnails on a shelf, sorted into your own categories.\par
+\par
+- Tiles show the plugin's own window (screen capture), so you find plugins by how they look\par
+- FX chains as tiles, with mini thumbnails of every plugin inside\par
+- Search by bits of words in any order ("comp air" finds AIR Compressor)\par
+- Quick Switch: hold Left Alt and type a category number, 0 + Enter = Home\par
+- Right-click a tile > Presets: insert the plugin with a preset loaded\par
+- Override script: REAPER's FX button opens Plugin Shelf instead of the stock window\par
+\par
+Runs as a free DEMO with no time limit. A license key unlocks the full version.\par
+Requires ReaImGui (ReaPack). REAPER 7. For REAPER 6 use the Lua 5.3 package from the shop.\par
+Full package with manuals, icon pack and toolbar icon: see the Shop link.
+}]]></description>
+        <link rel="website" href="https://emelowsky.gumroad.com/l/plugin-shelf">Shop</link>
+        <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials</link>
+      </metadata>
+      <version name="3.7.7" author="Emelowsky" time="2026-10-14T15:52:25Z">
+        <changelog><![CDATA[v3.7.7
+Quick Switch window: the title is just "Quick Switch" (no shortcut in brackets).]]></changelog>
+        <source main="main" file="Emelowsky - Plugin Shelf for REAPER Override.lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Emelowsky/Plugin%20Shelf%20for%20REAPER/Emelowsky%20-%20Plugin%20Shelf%20for%20REAPER%20Override.lua</source>
+        <source main="main" file="Emelowsky - Plugin Shelf for REAPER.lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Emelowsky/Plugin%20Shelf%20for%20REAPER/Emelowsky%20-%20Plugin%20Shelf%20for%20REAPER.lua</source>
+      </version>
+    </reapack>
+  </category>
+</index>
