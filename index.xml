@@ -39,9 +39,15 @@ Manuals and toolbar icon: in the Gumroad download.
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.7.7" author="Emelowsky" time="2026-10-14T16:29:48Z">
-        <changelog><![CDATA[v3.7.7
-Quick Switch window: the title is just "Quick Switch" (no shortcut in brackets).]]></changelog>
+      <version name="3.7.8" author="Emelowsky" time="2026-10-14T16:57:23Z">
+        <changelog><![CDATA[v3.7.8
+- Category text color: Options > Colors > "Category text", or per category (right-click > Category color > Text color)
+- Search plugins > Chains: the buttons stick to the right edge of the window
+- Right-click > Category color: background and text color preview live
+- After adding a chain or plugin to the shelf, the window stays on the same tab
+- The color picker is always on top
+- macOS: key names without "(AltGr)"
+- About: ReaPack address for updates and an "All products" button]]></changelog>
         <source main="main" file="Emelowsky - Plugin Shelf for REAPER Override.lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/Emelowsky%20-%20Plugin%20Shelf%20for%20REAPER%20Override.lua</source>
         <source main="main" file="Emelowsky - Plugin Shelf for REAPER.lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/Emelowsky%20-%20Plugin%20Shelf%20for%20REAPER.lua</source>
       </version>
@@ -60,7 +66,7 @@ All products: https://emelowsky.gumroad.com
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.0" author="Emelowsky" time="2026-10-14T16:29:48Z">
+      <version name="1.0" author="Emelowsky" time="2026-10-14T16:57:23Z">
         <changelog><![CDATA[v1.0
 Icon pack for Plugin Shelf for REAPER: 4125 plugin icons.]]></changelog>
         <source file="EmelowskyFX - AIR CHORUS.png">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/icons/EmelowskyFX%20-%20AIR%20CHORUS.png</source>
