@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index version="1" name="Emelowsky">
+  <metadata>
+    <description><![CDATA[{\rtf1\ansi
+Emelowsky Plugins - REAPER scripts\par
+Every script runs as a free DEMO with no time limit; a license key from Gumroad unlocks the full version in the same file.\par
+\par
+Shop (all products): https://emelowsky.gumroad.com\par
+Tutorials: https://www.youtube.com/@EmelowskyPlugins\par
+Contact: emelowsky.plugins@gmail.com
+}]]></description>
+    <link rel="website" href="https://emelowsky.gumroad.com">All products (Gumroad)</link>
+    <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
+    <link rel="website" href="https://www.instagram.com/emelowskyplugins">Instagram</link>
+    <link rel="website" href="https://www.facebook.com/EmelowskyPlugins">Facebook</link>
+  </metadata>
   <category name="Plugin Shelf for REAPER">
     <reapack name="Emelowsky - Plugin Shelf for REAPER.lua" type="script" desc="Emelowsky - Plugin Shelf for REAPER">
       <metadata>
@@ -14,15 +28,18 @@ A visual plugin browser: your plugins and FX chains as thumbnails on a shelf, so
 - Right-click a tile > Presets: insert the plugin with a preset loaded\par
 - Override script: REAPER's FX button opens Plugin Shelf instead of the stock window\par
 \par
-Runs as a free DEMO with no time limit. A license key unlocks the full version.\par
+Runs as a free DEMO with no time limit (4 categories, 5 plugins each).\par
+Buy the Full license on Gumroad: https://emelowsky.gumroad.com/l/plugin-shelf - the key unlocks this same script, nothing to reinstall.\par
+More REAPER scripts from Emelowsky Plugins: https://emelowsky.gumroad.com\par
 Requires ReaImGui (ReaPack). REAPER 7. For REAPER 6 use the Lua 5.3 package from the shop.\par
 Icons: also install "Emelowsky - Plugin Shelf for REAPER (icon pack)" from this repository (4000+ plugin icons, downloaded once).\par
-Manuals and toolbar icon: in the shop download (Shop link).
+Manuals and toolbar icon: in the Gumroad download.
 }]]></description>
-        <link rel="website" href="https://emelowsky.gumroad.com/l/plugin-shelf">Shop</link>
-        <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials</link>
+        <link rel="website" href="https://emelowsky.gumroad.com/l/plugin-shelf">Buy Plugin Shelf (free demo + Full license)</link>
+        <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
+        <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.7.7" author="Emelowsky" time="2026-10-14T16:20:13Z">
+      <version name="3.7.7" author="Emelowsky" time="2026-10-14T16:29:48Z">
         <changelog><![CDATA[v3.7.7
 Quick Switch window: the title is just "Quick Switch" (no shortcut in brackets).]]></changelog>
         <source main="main" file="Emelowsky - Plugin Shelf for REAPER Override.lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/Emelowsky%20-%20Plugin%20Shelf%20for%20REAPER%20Override.lua</source>
@@ -34,12 +51,16 @@ Quick Switch window: the title is just "Quick Switch" (no shortcut in brackets).
         <description><![CDATA[{\rtf1\ansi
 Icon pack for Plugin Shelf for REAPER\par
 4125 ready-made plugin icons. They install next to the script, and Plugin Shelf picks them up by plugin name (Automatic categories wizard, or its "Fill in icons" button for tiles you already have).\par
-Install it once - script updates do not download the icons again.
+Install it once - script updates do not download the icons again.\par
+\par
+Plugin Shelf Full license: https://emelowsky.gumroad.com/l/plugin-shelf\par
+All products: https://emelowsky.gumroad.com
 }]]></description>
-        <link rel="website" href="https://emelowsky.gumroad.com/l/plugin-shelf">Shop</link>
-        <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials</link>
+        <link rel="website" href="https://emelowsky.gumroad.com/l/plugin-shelf">Buy Plugin Shelf (free demo + Full license)</link>
+        <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
+        <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.0" author="Emelowsky" time="2026-10-14T16:20:13Z">
+      <version name="1.0" author="Emelowsky" time="2026-10-14T16:29:48Z">
         <changelog><![CDATA[v1.0
 Icon pack for Plugin Shelf for REAPER: 4125 plugin icons.]]></changelog>
         <source file="EmelowskyFX - AIR CHORUS.png">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/icons/EmelowskyFX%20-%20AIR%20CHORUS.png</source>
