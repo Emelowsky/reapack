@@ -39,7 +39,7 @@ Manuals and toolbar icon: in the Gumroad download.
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.7.8" author="Emelowsky" time="2026-10-14T16:57:23Z">
+      <version name="3.7.8" author="Emelowsky" time="2026-10-19T17:40:08Z">
         <changelog><![CDATA[v3.7.8
 - Category text color: Options > Colors > "Category text", or per category (right-click > Category color > Text color)
 - Search plugins > Chains: the buttons stick to the right edge of the window
@@ -66,7 +66,7 @@ All products: https://emelowsky.gumroad.com
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.0" author="Emelowsky" time="2026-10-14T16:57:23Z">
+      <version name="1.0" author="Emelowsky" time="2026-10-19T17:40:08Z">
         <changelog><![CDATA[v1.0
 Icon pack for Plugin Shelf for REAPER: 4125 plugin icons.]]></changelog>
         <source file="EmelowskyFX - AIR CHORUS.png">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/icons/EmelowskyFX%20-%20AIR%20CHORUS.png</source>
