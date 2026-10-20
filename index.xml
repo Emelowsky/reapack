@@ -3,7 +3,7 @@
   <metadata>
     <description><![CDATA[{\rtf1\ansi
 Emelowsky Plugins - REAPER scripts\par
-Every script runs as a free DEMO with no time limit; a license key from Gumroad unlocks the full version in the same file.\par
+Paid scripts run as a free DEMO with no time limit; a license key from Gumroad unlocks the full version in the same file. Free scripts are free for good - no license, no limits.\par
 \par
 Shop (all products): https://emelowsky.gumroad.com\par
 Tutorials: https://www.youtube.com/@EmelowskyPlugins\par
@@ -39,7 +39,7 @@ Manuals and toolbar icon: in the Gumroad download.
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.7.9" author="Emelowsky" time="2026-10-19T19:26:12Z">
+      <version name="3.7.9" author="Emelowsky" time="2026-10-20T11:40:42Z">
         <changelog><![CDATA[v3.7.9
 - New category: pick the text color right away, next to the category color (Add category, Add plugin, Edit properties)
 - All notes: click inserts the plugin (like its tile), right-click opens editing
@@ -62,7 +62,7 @@ All products: https://emelowsky.gumroad.com
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.0" author="Emelowsky" time="2026-10-19T19:26:12Z">
+      <version name="1.0" author="Emelowsky" time="2026-10-20T11:40:42Z">
         <changelog><![CDATA[v1.0
 Icon pack for Plugin Shelf for REAPER: 4125 plugin icons.]]></changelog>
         <source file="EmelowskyFX - AIR CHORUS.png">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/icons/EmelowskyFX%20-%20AIR%20CHORUS.png</source>
@@ -4190,6 +4190,44 @@ Icon pack for Plugin Shelf for REAPER: 4125 plugin icons.]]></changelog>
         <source file="EmelowskyFX - u-he Zebralette 3.png">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/icons/EmelowskyFX%20-%20u-he%20Zebralette%203.png</source>
         <source file="EmelowskyFX - u-he Zebralette.png">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/icons/EmelowskyFX%20-%20u-he%20Zebralette.png</source>
         <source file="EmelowskyFX - u-he Zebrify.png">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/icons/EmelowskyFX%20-%20u-he%20Zebrify.png</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Marker Tracker">
+    <reapack name="Emelowsky - Marker Tracker.lua" type="script" desc="Emelowsky - Marker Tracker">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi
+Marker Tracker\par
+A small floating counter over your project: which marker the playhead has just passed ("3 / 7") and its name ("Chorus"). No background, no frame - only the text, so it never covers your work.\par
+Made to find your way between markers and regions at a glance - even when the screen is far away (behind the drum kit, across the live room) and you cannot read the ruler, you see which part of the song is playing.\par
+\par
+- Markers or regions\par
+- Follows the playhead during playback and the edit cursor when stopped\par
+- Lock the position to the screen or to the REAPER window (moves with REAPER to another monitor)\par
+- Your own fonts, colors, sizes and transparency\par
+- Right-click menu for quick toggles, Options window for everything else\par
+- PL / EN / DE / FR / ES\par
+\par
+Free - no license, no limits.\par
+Manuals (PDF, PL + EN) and the toolbar icon: free download on Gumroad: https://emelowsky.gumroad.com/l/marker-tracker\par
+More REAPER scripts from Emelowsky Plugins: https://emelowsky.gumroad.com\par
+Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7. For REAPER 6 use the Lua 5.3 package from Gumroad.
+}]]></description>
+        <link rel="website" href="https://emelowsky.gumroad.com/l/marker-tracker">Free download with manuals (Gumroad)</link>
+        <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
+        <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
+      </metadata>
+      <version name="1.0.1" author="Emelowsky" time="2026-10-20T11:40:42Z">
+        <changelog><![CDATA[v1.0.1
+- Options in a separate window (right-click the counter > Options): language, tracking mode, window, appearance, About
+- 5 languages: PL / EN / DE / FR / ES
+- Lock position to REAPER window: the counter moves with REAPER, also to another screen (distance scales with the window size), and hides while REAPER is minimized
+- Same look as the whole Emelowsky Plugins family: window colors and rounded corners (Options > Appearance)
+- The counter no longer flickers while you move it; Always on top is on by default
+- Empty project: the counter shows where the menu is
+- Running the action again closes the counter (toolbar toggle)
+- The script also starts when the REAPER path has non-English letters]]></changelog>
+        <source main="main" file="Emelowsky - Marker Tracker.lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Marker%20Tracker/Emelowsky%20-%20Marker%20Tracker.lua</source>
       </version>
     </reapack>
   </category>
