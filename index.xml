@@ -39,8 +39,11 @@ Manuals and toolbar icon: in the Gumroad download.
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.7.9" author="Emelowsky" time="2026-10-24T17:38:17Z">
-        <changelog><![CDATA[v3.7.9
+      <version name="3.7.91" author="Emelowsky" time="2026-10-24T17:48:37Z">
+        <changelog><![CDATA[v3.7.91
+- "Always on top" only over REAPER: when you click another program, the Plugin Shelf windows go behind its window and come back on top when you return to REAPER (Windows)
+
+v3.7.9
 - New category: pick the text color right away, next to the category color (Add category, Add plugin, Edit properties)
 - All notes: click inserts the plugin (like its tile), right-click opens editing
 - The script also starts when the REAPER path has non-English letters (e.g. C:\Users\Sławek)]]></changelog>
@@ -62,7 +65,7 @@ All products: https://emelowsky.gumroad.com
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.0" author="Emelowsky" time="2026-10-24T17:38:17Z">
+      <version name="1.0" author="Emelowsky" time="2026-10-24T17:48:37Z">
         <changelog><![CDATA[v1.0
 Icon pack for Plugin Shelf for REAPER: 4125 plugin icons.]]></changelog>
         <source file="EmelowskyFX - AIR CHORUS.png">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/icons/EmelowskyFX%20-%20AIR%20CHORUS.png</source>
@@ -4217,7 +4220,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7. For REAPER 6 u
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.0.2" author="Emelowsky" time="2026-10-24T17:38:17Z">
+      <version name="1.0.2" author="Emelowsky" time="2026-10-24T17:48:37Z">
         <changelog><![CDATA[v1.0.2
 - "Always on top" only over REAPER: when you click another program, the counter goes behind its window and comes back on top when you return to REAPER (Windows)
 
