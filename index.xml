@@ -39,7 +39,7 @@ Manuals and toolbar icon: in the Gumroad download.
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.7.92" author="Emelowsky" time="2026-10-24T18:48:56Z">
+      <version name="3.7.92" author="Emelowsky" time="2026-10-24T19:08:10Z">
         <changelog><![CDATA[v3.7.92
 - REAPER warnings and questions always show up above the Plugin Shelf windows, and the windows open faster
 
@@ -68,7 +68,7 @@ All products: https://emelowsky.gumroad.com
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.0" author="Emelowsky" time="2026-10-24T18:48:56Z">
+      <version name="1.0" author="Emelowsky" time="2026-10-24T19:08:10Z">
         <changelog><![CDATA[v1.0
 Icon pack for Plugin Shelf for REAPER: 4125 plugin icons.]]></changelog>
         <source file="EmelowskyFX - AIR CHORUS.png">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/icons/EmelowskyFX%20-%20AIR%20CHORUS.png</source>
@@ -4199,6 +4199,49 @@ Icon pack for Plugin Shelf for REAPER: 4125 plugin icons.]]></changelog>
       </version>
     </reapack>
   </category>
+  <category name="Plugin Shelf for REAPER (REAPER 6, Lua 5.3)">
+    <reapack name="Emelowsky - Plugin Shelf for REAPER (REAPER 6, Lua 5.3).lua" type="script" desc="Emelowsky - Plugin Shelf for REAPER (REAPER 6, Lua 5.3)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi
+REAPER 6 (Lua 5.3) version of Plugin Shelf for REAPER. Install it only on REAPER 6 - on REAPER 7 use the main package "Plugin Shelf for REAPER".\par
+\par
+Plugin Shelf for REAPER\par
+A visual plugin browser: your plugins and FX chains as thumbnails on a shelf, sorted into your own categories.\par
+\par
+- Tiles show the plugin's own window (screen capture), so you find plugins by how they look\par
+- FX chains as tiles, with mini thumbnails of every plugin inside\par
+- Search by bits of words in any order ("comp air" finds AIR Compressor)\par
+- Quick Switch: hold Left Alt and type a category number, 0 + Enter = Home\par
+- Right-click a tile > Presets: insert the plugin with a preset loaded\par
+- Override script: REAPER's FX button opens Plugin Shelf instead of the stock window\par
+\par
+Runs as a free DEMO with no time limit (4 categories, 5 plugins each).\par
+Buy the Full license on Gumroad: https://emelowsky.gumroad.com/l/plugin-shelf - the key unlocks this same script, nothing to reinstall.\par
+More REAPER scripts from Emelowsky Plugins: https://emelowsky.gumroad.com\par
+Requires ReaImGui (ReaPack). REAPER 7. For REAPER 6 use the Lua 5.3 package from the shop.\par
+Icons: also install "Emelowsky - Plugin Shelf for REAPER (icon pack)" from this repository (4000+ plugin icons, downloaded once).\par
+Manuals and toolbar icon: in the Gumroad download.
+}]]></description>
+        <link rel="website" href="https://emelowsky.gumroad.com/l/plugin-shelf">Buy Plugin Shelf (free demo + Full license)</link>
+        <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
+        <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
+      </metadata>
+      <version name="3.7.92" author="Emelowsky" time="2026-10-24T19:08:10Z">
+        <changelog><![CDATA[v3.7.92
+- REAPER warnings and questions always show up above the Plugin Shelf windows, and the windows open faster
+
+v3.7.91
+- "Always on top" only over REAPER: when you click another program, the Plugin Shelf windows go behind its window and come back on top when you return to REAPER (Windows)
+
+v3.7.9
+- New category: pick the text color right away, next to the category color (Add category, Add plugin, Edit properties)
+- All notes: click inserts the plugin (like its tile), right-click opens editing
+- The script also starts when the REAPER path has non-English letters (e.g. C:\Users\Sławek)]]></changelog>
+        <source main="main" file="Emelowsky - Plugin Shelf for REAPER Override.lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Emelowsky%20-%20Plugin%20Shelf%20for%20REAPER%20Override.lua</source>
+        <source main="main" file="Emelowsky - Plugin Shelf for REAPER.lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Emelowsky%20-%20Plugin%20Shelf%20for%20REAPER.lua</source>
+      </version>
+    </reapack>
+  </category>
   <category name="Marker Tracker">
     <reapack name="Emelowsky - Marker Tracker.lua" type="script" desc="Emelowsky - Marker Tracker">
       <metadata>
@@ -4223,7 +4266,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7. For REAPER 6 u
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.0.2" author="Emelowsky" time="2026-10-24T18:48:56Z">
+      <version name="1.0.2" author="Emelowsky" time="2026-10-24T19:08:10Z">
         <changelog><![CDATA[v1.0.2
 - "Always on top" only over REAPER: when you click another program, the counter goes behind its window and comes back on top when you return to REAPER (Windows)
 
