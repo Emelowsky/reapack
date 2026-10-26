@@ -39,8 +39,11 @@ Manuals and toolbar icon: in the Gumroad download.
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.7.92" author="Emelowsky" time="2026-10-24T19:08:10Z">
-        <changelog><![CDATA[v3.7.92
+      <version name="3.7.93" author="Emelowsky" time="2026-10-26T19:51:00Z">
+        <changelog><![CDATA[v3.7.93
+- REAPER dialogs (e.g. the question about terminating the script when you run it again on REAPER 6) always stay above the Plugin Shelf windows, also when you click a Plugin Shelf window and with "Always on top" on or off
+
+v3.7.92
 - REAPER warnings and questions always show up above the Plugin Shelf windows, and the windows open faster
 
 v3.7.91
@@ -68,7 +71,7 @@ All products: https://emelowsky.gumroad.com
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.0" author="Emelowsky" time="2026-10-24T19:08:10Z">
+      <version name="1.0" author="Emelowsky" time="2026-10-26T19:51:00Z">
         <changelog><![CDATA[v1.0
 Icon pack for Plugin Shelf for REAPER: 4125 plugin icons.]]></changelog>
         <source file="EmelowskyFX - AIR CHORUS.png">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/icons/EmelowskyFX%20-%20AIR%20CHORUS.png</source>
@@ -4226,8 +4229,11 @@ Manuals and toolbar icon: in the Gumroad download.
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.7.92" author="Emelowsky" time="2026-10-24T19:08:10Z">
-        <changelog><![CDATA[v3.7.92
+      <version name="3.7.93" author="Emelowsky" time="2026-10-26T19:51:00Z">
+        <changelog><![CDATA[v3.7.93
+- REAPER dialogs (e.g. the question about terminating the script when you run it again on REAPER 6) always stay above the Plugin Shelf windows, also when you click a Plugin Shelf window and with "Always on top" on or off
+
+v3.7.92
 - REAPER warnings and questions always show up above the Plugin Shelf windows, and the windows open faster
 
 v3.7.91
@@ -4266,7 +4272,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7. For REAPER 6 u
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.0.2" author="Emelowsky" time="2026-10-24T19:08:10Z">
+      <version name="1.0.2" author="Emelowsky" time="2026-10-26T19:51:00Z">
         <changelog><![CDATA[v1.0.2
 - "Always on top" only over REAPER: when you click another program, the counter goes behind its window and comes back on top when you return to REAPER (Windows)
 
