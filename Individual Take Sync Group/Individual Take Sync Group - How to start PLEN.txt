@@ -1,0 +1,139 @@
+INDIVIDUAL TAKE SYNC GROUP — SZYBKI START / QUICK START
+==========================================================
+
+
+─────────────────────────────────────────
+PL — INSTRUKCJA INSTALACJI
+─────────────────────────────────────────
+
+Wymagania: REAPER 7 albo REAPER 6 i rozszerzenie ReaImGui (Extensions → ReaPack →
+Browse packages → ReaImGui). Opcjonalnie js_ReaScriptAPI (okna "zawsze na wierzchu"
+tylko nad REAPERem, bez migania przy przesuwaniu).
+
+1. Otwórz folder zasobów REAPERa
+   W REAPERze: Options → Show REAPER resource path in explorer/finder.
+
+2. Stwórz folder na skrypt (jeśli jeszcze nie istnieje)
+   W środku znajdź folder "Scripts", a w nim utwórz nowy podfolder:
+       Individual Take Sync Group
+   Docelowa ścieżka będzie wyglądać mniej więcej tak:
+       .../REAPER/Scripts/Individual Take Sync Group/
+
+3. Wgraj plik skryptu — to tylko JEDEN plik
+   Z paczki weź plik z folderu dla swojej wersji REAPERa:
+   "Lua 5.4 (REAPER 7)" albo "Lua 5.3 (REAPER 6)":
+       .../REAPER/Scripts/Individual Take Sync Group/Emelowsky - Individual Take Sync Group.lua
+   To ten sam plik dla wersji DEMO i pełnej: bez licencji działa od razu
+   jako DEMO (2 grupy po 6 śladów/itemów), po aktywacji licencji od razu
+   jako wersja pełna.
+
+4. Dodaj skrypt do listy akcji REAPERa (Actions)
+   a) W REAPERze: Actions → Show action list.
+   b) Kliknij "New action..." → "Load ReaScript...".
+   c) Wskaż plik .lua, który wgrałeś w kroku 3.
+   d) Skrypt pojawi się na liście akcji pod nazwą pliku — od teraz możesz
+      go uruchomić przyciskiem "Run", przypisać mu skrót klawiszowy, albo
+      dodać jako przycisk na pasku narzędzi (ikona: rozpakuj
+      "Emelowsky - Individual Take Sync Group (toolbar icon).zip" do folderu
+      zasobów REAPERa).
+
+5. WAŻNE — Scope skrótu: "Global + text fields", nie samo "Global"
+   Przy przypisywaniu skrótu (Actions → wybierz skrypt → "Add..."), w
+   oknie wyboru klawisza REAPER pozwala wybrać "Scope"/zakres działania
+   skrótu. Domyślne "Global" NIE wystarczy — trzeba wybrać "Global + text
+   fields", inaczej skrót przestanie działać za każdym razem, gdy kursor
+   będzie akurat w polu tekstowym (np. w polu wyszukiwania, przy zmianie
+   nazwy grupy albo przy wpisywaniu e-maila/klucza licencji) — okna nie
+   dałoby się wtedy zamknąć własnym skrótem.
+
+ReaPack (zamiast kroków 1–4): Extensions → ReaPack → Import repositories… i wklej
+    https://raw.githubusercontent.com/Emelowsky/reapack/main/index.xml
+potem Browse packages… → "Emelowsky - Individual Take Sync Group" (na REAPERze 6:
+"Emelowsky - Individual Take Sync Group (REAPER 6, Lua 5.3)") → Install → Apply.
+UWAGA, inny folder: ReaPack instaluje plik do
+    .../REAPER/Scripts/Emelowsky/Individual Take Sync Group/
+(z dodatkowym folderem "Emelowsky") i sam dodaje akcję do Action List.
+
+WAŻNE — kolejność grup: grupa położona wyżej na liście ma pierwszeństwo. Grupa,
+która spina więcej śladów (np. „All”), musi być NAD węższymi (np. „Wokal”,
+„Perkusja”) — na dole listy nie zsynchronizuje wszystkich śladów. Kolejność
+zmienisz w menu PPM na grupie: Przesuń w górę / Przesuń w dół.
+
+Dokowanie: przeciągnij okno z wciśniętym Shift na miejsce w dockerze REAPERa;
+z dockera wyciągasz je zwykłym przeciągnięciem.
+
+Aktywacja licencji: kliknij "Mam klucz - aktywuj" przy banerze DEMO, skopiuj
+Machine ID, otwórz panel klienta (plugins.emelowsky.com), zaloguj się e-mailem
+z zakupu i kluczem licencyjnym Gumroad, wpisz Machine ID i wklej klucz produktu,
+który poda panel, razem z tym samym e-mailem. Pełna instrukcja obsługi
+(wszystkie funkcje, aktywacja licencji, kopie zapasowe, rozwiązywanie problemów)
+jest w osobnym manualu PDF w paczce
+("Individual Take Sync Group - instrukcja obslugi (PL).pdf").
+
+
+─────────────────────────────────────────
+EN — INSTALLATION GUIDE
+─────────────────────────────────────────
+
+Requirements: REAPER 7 or REAPER 6 and the ReaImGui extension (Extensions → ReaPack →
+Browse packages → ReaImGui). Optional: js_ReaScriptAPI ("always on top" windows only
+over REAPER, no flicker while you move them).
+
+1. Open REAPER's resource path
+   In REAPER: Options → Show REAPER resource path in explorer/finder.
+
+2. Create a folder for the script (if it doesn't exist yet)
+   Inside, find the "Scripts" folder, and create a new subfolder:
+       Individual Take Sync Group
+   The final path should look roughly like this:
+       .../REAPER/Scripts/Individual Take Sync Group/
+
+3. Copy the script file in — it's just ONE file
+   From the package take the file from the folder for your REAPER version:
+   "Lua 5.4 (REAPER 7)" or "Lua 5.3 (REAPER 6)":
+       .../REAPER/Scripts/Individual Take Sync Group/Emelowsky - Individual Take Sync Group.lua
+   It's the same file for the DEMO and the full version: without a license
+   it runs right away as the DEMO (2 groups of 6 tracks/items), and after
+   you activate a license it works as the full version right away.
+
+4. Add the script to REAPER's Action list
+   a) In REAPER: Actions → Show action list.
+   b) Click "New action..." → "Load ReaScript...".
+   c) Point it to the .lua file you copied in step 3.
+   d) The script will appear in the action list under its filename — you
+      can now run it with "Run", assign it a keyboard shortcut, or add it
+      as a toolbar button (icon: unzip
+      "Emelowsky - Individual Take Sync Group (toolbar icon).zip" into the
+      REAPER resource path).
+
+5. IMPORTANT — Shortcut scope: "Global + text fields", not just "Global"
+   When assigning a shortcut (Actions → select the script → "Add..."),
+   REAPER's key-assignment dialog lets you pick a "Scope" for the
+   shortcut. The default "Global" is NOT enough — pick "Global + text
+   fields" instead, otherwise the shortcut will stop working whenever the
+   cursor happens to be inside a text field (e.g. the search field, while
+   renaming a group, or while typing your license e-mail/key) — you
+   wouldn't be able to close the window with its own shortcut.
+
+ReaPack (instead of steps 1–4): Extensions → ReaPack → Import repositories… and paste
+    https://raw.githubusercontent.com/Emelowsky/reapack/main/index.xml
+then Browse packages… → "Emelowsky - Individual Take Sync Group" (on REAPER 6:
+"Emelowsky - Individual Take Sync Group (REAPER 6, Lua 5.3)") → Install → Apply.
+NOTE, different folder: ReaPack installs the file into
+    .../REAPER/Scripts/Emelowsky/Individual Take Sync Group/
+(with an extra "Emelowsky" folder) and adds the action to the Action List itself.
+
+IMPORTANT — group order: the group placed higher in the list wins. The group
+that ties together more tracks (e.g. "All") has to be ABOVE the narrower ones
+(e.g. "Vocals", "Drums") — at the bottom of the list it won't sync all the tracks.
+Change the order in the right-click menu on a group: Move up / Move down.
+
+Docking: drag the window with Shift held down onto a spot in REAPER's docker;
+drag it out of the docker normally.
+
+License activation: click "I have a key - activate" next to the DEMO banner, copy
+your Machine ID, open the customer panel (plugins.emelowsky.com), log in with your
+purchase e-mail and the Gumroad license key, enter your Machine ID and paste the
+product key the panel gives you, together with the same e-mail. The full user guide
+(every feature, license activation, backups, troubleshooting) is in the separate PDF
+manual in the package ("Individual Take Sync Group - user manual (EN).pdf").

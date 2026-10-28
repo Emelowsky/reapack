@@ -1,0 +1,46 @@
+Fast Group - wersja dla REAPERa 6 (Lua 5.3)
+============================================
+
+[PL]
+Pliki .lua w tym folderze to bytecode Lua 5.3 - działają TYLKO w REAPERze 6.x.
+REAPER 7 ma Lua 5.4 - tam używamy folderu "Lua 5.4 (REAPER 7)".
+
+Instalacja:
+1. REAPER > Options > Show REAPER resource path... > Scripts > utwórz folder
+   "Fast Group" i skopiuj do niego WSZYSTKIE TRZY pliki .lua z tego folderu
+   (Core, (manager), (Popup) - muszą leżeć razem).
+2. Wymagane: ReaImGui (Extensions > ReaPack > Browse packages > ReaImGui) - najnowszy,
+   jaki ReaPack pokaże dla tej wersji REAPERa. Opcjonalnie js_ReaScriptAPI (okna "zawsze na
+   wierzchu" bez migania) i SWS.
+3. Actions > Show action list > New action > Load ReaScript... >
+   "Emelowsky - Fast Group (manager).lua" i osobno "Emelowsky - Fast Group (Popup).lua".
+   Pliku "...Core.lua" NIE wczytuj jako akcji - to biblioteka, uruchomiona nic nie otwiera.
+4. (Opcjonalnie) Ikona na pasek narzędzi: rozpakuj "Emelowsky - Fast Group (toolbar icon).zip"
+   do folderu zasobów REAPERa, potem Customize toolbar > Add > akcja Managera > Icon... >
+   "Emelowsky - Fast Group".
+
+ReaPack (zamiast kroków 1 i 3): Import repositories > https://raw.githubusercontent.com/Emelowsky/reapack/main/index.xml,
+potem Browse packages > "Emelowsky - Fast Group (REAPER 6, Lua 5.3)" > Install. Pliki trafiają do
+Scripts/Emelowsky/Fast Group (REAPER 6, Lua 5.3)/, a obie akcje (Manager i Popup) ReaPack dodaje sam.
+
+[EN]
+The .lua files in this folder are Lua 5.3 bytecode - they work ONLY in REAPER 6.x.
+REAPER 7 uses Lua 5.4 - use the "Lua 5.4 (REAPER 7)" folder there.
+
+Installation:
+1. REAPER > Options > Show REAPER resource path... > Scripts > create a folder
+   "Fast Group" and copy ALL THREE .lua files from this folder into it
+   (Core, (manager), (Popup) - they must sit together).
+2. Required: ReaImGui (Extensions > ReaPack > Browse packages > ReaImGui) - the newest
+   version ReaPack offers for this REAPER version. Optional: js_ReaScriptAPI (flicker-free
+   "always on top" windows) and SWS.
+3. Actions > Show action list > New action > Load ReaScript... >
+   "Emelowsky - Fast Group (manager).lua" and separately "Emelowsky - Fast Group (Popup).lua".
+   Do NOT load "...Core.lua" as an action - it is a library and opens nothing when run.
+4. (Optional) Toolbar icon: unzip "Emelowsky - Fast Group (toolbar icon).zip" into
+   the REAPER resource path, then Customize toolbar > Add > the Manager action > Icon... >
+   "Emelowsky - Fast Group".
+
+ReaPack (instead of steps 1 and 3): Import repositories > https://raw.githubusercontent.com/Emelowsky/reapack/main/index.xml,
+then Browse packages > "Emelowsky - Fast Group (REAPER 6, Lua 5.3)" > Install. The files go to
+Scripts/Emelowsky/Fast Group (REAPER 6, Lua 5.3)/, and ReaPack adds both actions (Manager and Popup) itself.

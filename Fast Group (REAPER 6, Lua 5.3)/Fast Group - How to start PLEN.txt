@@ -1,0 +1,242 @@
+FAST GROUP — SZYBKI START / QUICK START
+=======================================
+
+
+─────────────────────────────────────────
+PL — INSTRUKCJA INSTALACJI
+─────────────────────────────────────────
+
+REAPER 7 albo REAPER 6: na REAPERze 7 bierz pliki z folderu "Lua 5.4 (REAPER 7)",
+na REAPERze 6 z folderu "Lua 5.3 (REAPER 6)" (szczegóły w pliku
+"Fast Group - REAPER 6 (Lua 5.3) PLEN.txt").
+
+INSTALACJA PRZEZ REAPACK (zamiast kroków 1-4)
+   Zamiast kopiować pliki ręcznie możesz zainstalować Fast Group przez ReaPack -
+   wtedy aktualizacje przychodzą same (Extensions → ReaPack → Synchronize packages).
+   a) Extensions → ReaPack → Import repositories... i wklej adres:
+       https://raw.githubusercontent.com/Emelowsky/reapack/main/index.xml
+   b) Extensions → ReaPack → Browse packages... → wyszukaj "Fast Group" →
+      zaznacz "Emelowsky - Fast Group" → Install → Apply.
+   c) UWAGA - INNY FOLDER: ReaPack instaluje wszystko do
+       .../REAPER/Scripts/Emelowsky/Fast Group/
+      (z dodatkowym folderem "Emelowsky"), a nie do .../REAPER/Scripts/Fast Group/
+      jak przy instalacji ręcznej.
+   d) ReaPack sam dodaje do Action List obie akcje (Manager i Popup) - Core
+      instaluje bez akcji, tak jak trzeba. Skróty (krok 4e i 5) ustawiasz tak samo.
+   e) Wybierz JEDEN sposób instalacji - kopia ręczna i kopia z ReaPacka to dwa
+      osobne zestawy akcji. Grupy są zapisane w projekcie, więc działają w obu.
+   Licencja (krok 6) i ikona paska narzędzi (krok 7 - z paczki ze sklepu)
+   działają tak samo.
+
+1. Otwórz folder zasobów REAPERa
+   W REAPERze: Options → Show REAPER resource path in explorer/finder.
+
+2. Stwórz folder na skrypt (jeśli jeszcze nie istnieje)
+   W środku znajdź folder "Scripts", a w nim utwórz nowy podfolder, np.:
+       Fast Group
+   Docelowa ścieżka będzie wyglądać mniej więcej tak:
+       .../REAPER/Scripts/Fast Group/
+
+3. Wgraj WSZYSTKIE TRZY pliki skryptu DO TEGO SAMEGO folderu
+   WAŻNE: to są trzy osobne pliki, ale muszą leżeć RAZEM, w jednym
+   folderze — dwa z nich to niezależne skrypty ("(manager)" i "(Popup)"),
+   trzeci to wspólna biblioteka, z której oba korzystają. Bez niej żaden
+   z dwóch pozostałych plików się nie uruchomi:
+       .../REAPER/Scripts/Fast Group/Emelowsky - Fast Group Core.lua
+       .../REAPER/Scripts/Fast Group/Emelowsky - Fast Group (manager).lua
+       .../REAPER/Scripts/Fast Group/Emelowsky - Fast Group (Popup).lua
+   (W odróżnieniu od Plugin Shelf — tu nie ma ikon wtyczek do rozpakowania;
+   opcjonalna ikona na pasek narzędzi — patrz punkt 7.)
+
+4. Dodaj OBA skrypty do listy akcji REAPERa (Actions) — osobno
+   Fast Group to w praktyce DWA niezależne okna/skróty, więc krok
+   "Load ReaScript" trzeba wykonać DWA RAZY — raz dla każdego z nich:
+       a) W REAPERze: Actions → Show action list.
+       b) Kliknij "New action..." → "Load ReaScript...".
+       c) Wskaż plik "...(manager).lua" — to główne okno (tabela śladów,
+          tworzenie/edycja grup, szablony, licencja, opcje).
+       d) Powtórz b)-c) dla pliku "...(Popup).lua" — to mały, niezależny
+          rząd przycisków do błyskawicznego dodawania/usuwania grup, bez
+          otwierania całego Managera. Oba okna mogą działać RÓWNOCZEŚNIE
+          i widzą te same grupy na bieżąco.
+       UWAGA: NIE wczytuj do Action List pliku "...Core.lua" - to tylko
+          biblioteka; uruchomiony jako akcja nic nie otwiera.
+       e) Każdemu z dwóch skryptów przypisz WŁASNY, INNY skrót klawiszowy
+          (Actions → wybierz skrypt → "Add..."). Skrót włącza i wyłącza
+          dane okno na przemian, dokładnie jak natywne okna REAPERa.
+
+5. WAŻNE — Scope skrótu: "Global + text fields", nie samo "Global"
+   Przy przypisywaniu skrótu (krok 4e), w oknie wyboru klawisza REAPER
+   pozwala wybrać "Scope"/zakres działania skrótu. Domyślne "Global"
+   NIE wystarczy — trzeba wybrać "Global + text fields", inaczej skrót
+   przestanie działać za każdym razem, gdy kursor będzie akurat w polu
+   tekstowym (np. w polu wyszukiwania albo przy zmianie nazwy grupy) — okna nie
+   dałoby się wtedy zamknąć własnym skrótem.
+
+6. Pierwsze uruchomienie, tryb DEMO i aktywacja licencji
+   Przy pierwszym uruchomieniu interfejs jest po angielsku — język
+   zmienisz na górze panelu Opcje (działa od razu w obu oknach).
+   Bez aktywnej licencji Fast Group działa od razu w trybie DEMO
+   (maksymalnie 2 aktywne grupy naraz, zablokowane ustawienia w Opcjach).
+   Żeby odblokować pełną wersję, w oknie Managera kliknij "Mam klucz -
+   aktywuj" / "I have a key - activate" obok napisu WERSJA DEMO:
+   a) Kliknij "Kopiuj" / "Copy" przy Machine ID (identyfikator tego komputera).
+   b) Kliknij "Otwórz panel klienta" / "Open customer panel" i zaloguj się
+      kluczem licencyjnym z Gumroada (przyszedł mailem po zakupie) i adresem
+      e-mail użytym przy zakupie. Wklej Machine ID — panel wyda klucz
+      produktu dla tego komputera.
+   c) Wklej CAŁY klucz produktu do pola "Klucz produktu z panelu klienta" /
+      "Product key from the customer panel" (pole jest wielowierszowe,
+      wklejasz cały blok naraz) i wpisz ten sam adres e-mail.
+      Uwaga: to nie jest klucz licencyjny z Gumroada — tamten służy tylko
+      do logowania w panelu.
+   d) Kliknij "Aktywuj" / "Activate" — skrypt od razu przełączy się
+      w pełną wersję (także otwarte okno Popup), a Twoje grupy zostają
+      na miejscu. Tryb DEMO nigdy nie usuwa grup.
+   Aktywacja nie wymaga stałego dostępu do internetu — brak połączenia
+   nigdy nie wyłącza licencji.
+   Przyciski mają ikony — przytrzymaj nad nimi kursor przez sekundę, żeby
+   zobaczyć podpowiedź. Okna przesuwasz, łapiąc za dowolne wolne miejsce.
+   Okno Managera zadokujesz, przeciągając je z wciśniętym Shiftem do dockera
+   REAPERa; wyjmiesz je zwykłym przeciągnięciem.
+   W projekcie bez śladów Manager pokazuje ekran powitalny z przyciskiem
+   "Wstaw nowy ślad" / "Insert new track".
+   WAŻNE: grupy działają tylko wtedy, gdy Manager jest uruchomiony.
+   Po wyłączeniu Managera (albo przy Sync: OFF) plakietki grup znikają
+   ze śladów — to znak, że grupowanie jest wstrzymane. Po ponownym
+   uruchomieniu wszystko wraca, razem z proporcjami.
+
+7. (Opcjonalnie) Ikona Fast Group na pasku narzędzi REAPERa
+   a) Rozpakuj "Emelowsky - Fast Group (toolbar icon).zip" do folderu
+      zasobów REAPERa (Options → Show REAPER resource path...) — pliki trafią do
+      Data/toolbar_icons (+ wersje 150 i 200 dla ekranów o większej skali).
+   b) Prawy klik na pasku narzędzi → Customize toolbar... → Add... → wybierz akcję
+      "Script: Emelowsky - Fast Group (manager).lua" → zaznacz ją na liście
+      → Icon... → wybierz "Emelowsky - Fast Group" → Save.
+
+Gotowe — możesz uruchomić Fast Group. Pełna instrukcja obsługi
+(wszystkie funkcje, aktywacja licencji, personalizacja, rozwiązywanie
+problemów) znajduje się w osobnym manualu dołączonym do
+pobrania.
+
+
+─────────────────────────────────────────
+EN — INSTALLATION GUIDE
+─────────────────────────────────────────
+
+REAPER 7 or REAPER 6: on REAPER 7 use the files from the "Lua 5.4 (REAPER 7)"
+folder, on REAPER 6 the ones from "Lua 5.3 (REAPER 6)" (details in
+"Fast Group - REAPER 6 (Lua 5.3) PLEN.txt").
+
+INSTALLING WITH REAPACK (instead of steps 1-4)
+   Instead of copying the files by hand you can install Fast Group with ReaPack -
+   updates then arrive by themselves (Extensions → ReaPack → Synchronize packages).
+   a) Extensions → ReaPack → Import repositories... and paste:
+       https://raw.githubusercontent.com/Emelowsky/reapack/main/index.xml
+   b) Extensions → ReaPack → Browse packages... → search for "Fast Group" →
+      tick "Emelowsky - Fast Group" → Install → Apply.
+   c) NOTE - DIFFERENT FOLDER: ReaPack installs everything into
+       .../REAPER/Scripts/Emelowsky/Fast Group/
+      (with an extra "Emelowsky" folder), not .../REAPER/Scripts/Fast Group/
+      as in the manual install.
+   d) ReaPack adds both actions (Manager and Popup) to the Action List for you -
+      it installs Core without an action, as it should. Set the shortcuts
+      (steps 4e and 5) the same way.
+   e) Pick ONE way of installing - the manual copy and the ReaPack copy are two
+      separate sets of actions. The groups are saved in the project, so they
+      work with both.
+   The license (step 6) and the toolbar icon (step 7 - from the shop download)
+   work the same way.
+
+1. Open REAPER's resource path
+   In REAPER: Options → Show REAPER resource path in explorer/finder.
+
+2. Create a folder for the script (if it doesn't exist yet)
+   Inside, find the "Scripts" folder, and create a new subfolder, e.g.:
+       Fast Group
+   The final path should look roughly like this:
+       .../REAPER/Scripts/Fast Group/
+
+3. Copy ALL THREE script files into that SAME folder
+   IMPORTANT: these are three separate files, but they must sit
+   TOGETHER in one folder — two of them are independent scripts
+   ("(manager)" and "(Popup)"), the third is a shared library that both
+   of them rely on. Without it, neither of the other two files will run:
+       .../REAPER/Scripts/Fast Group/Emelowsky - Fast Group Core.lua
+       .../REAPER/Scripts/Fast Group/Emelowsky - Fast Group (manager).lua
+       .../REAPER/Scripts/Fast Group/Emelowsky - Fast Group (Popup).lua
+   (Unlike Plugin Shelf — there are no plugin icons to unzip here; the
+   optional toolbar icon is described in step 7.)
+
+4. Add BOTH scripts to REAPER's Action list — separately
+   Fast Group is really TWO independent windows/shortcuts, so the
+   "Load ReaScript" step needs to be done TWICE — once for each file:
+       a) In REAPER: Actions → Show action list.
+       b) Click "New action..." → "Load ReaScript...".
+       c) Point it to the "...(manager).lua" file — this is the main
+          window (track table, creating/editing groups, templates,
+          license, options).
+       d) Repeat b)-c) for the "...(Popup).lua" file — a small,
+          independent row of buttons for instantly adding/removing
+          groups without opening the full Manager. Both windows can run
+          at the SAME TIME and stay in sync with each other.
+       NOTE: do NOT load the "...Core.lua" file into the Action List - it is
+          only a library; run as an action it opens nothing.
+       e) Assign each of the two scripts its OWN, DIFFERENT keyboard
+          shortcut (Actions → select the script → "Add..."). The
+          shortcut toggles that window on and off, just like REAPER's
+          native windows.
+
+5. IMPORTANT — Shortcut scope: "Global + text fields", not just "Global"
+   When assigning the shortcut (step 4e), REAPER's key-assignment dialog
+   lets you pick a "Scope" for the shortcut. The default "Global" is
+   NOT enough — pick "Global + text fields" instead, otherwise the
+   shortcut will stop working whenever the cursor happens to be inside
+   a text field (e.g. the search box, or while renaming a group) — you
+   wouldn't be able to close the window with its own shortcut.
+
+6. First launch, DEMO mode and license activation
+   On first launch the interface is in English — you can change the
+   language at the top of the Options panel (applies to both windows
+   right away).
+   Without an active license, Fast Group runs straight away in DEMO mode
+   (maximum 2 active groups at a time, settings in Options locked).
+   To unlock the full version, click "I have a key - activate" next to the
+   DEMO VERSION label in the Manager window:
+   a) Click "Copy" next to the Machine ID (this computer's identifier).
+   b) Click "Open customer panel" and log in with the license key from
+      Gumroad (it came by e-mail after your purchase) and the email address
+      used at purchase. Paste the Machine ID — the panel issues a product
+      key for this computer.
+   c) Paste the WHOLE product key into the "Product key from the customer
+      panel" field (the field is multi-line, so paste the entire block at
+      once) and enter the same email address.
+      Note: this is not the Gumroad license key — that one is only for
+      logging in to the panel.
+   d) Click "Activate" — the script switches to the full version right
+      away (the open Popup window too), and your groups stay in place.
+      DEMO mode never deletes groups.
+   Activation doesn't need a constant internet connection — being offline
+   never deactivates your license.
+   The buttons show icons — hold the mouse over one for a second to see
+   a tooltip. Move any window by dragging an empty spot.
+   Dock the Manager window by dragging it with Shift held down into REAPER's
+   docker; take it out with a normal drag.
+   In a project without tracks the Manager shows a welcome screen with an
+   "Insert new track" button.
+   IMPORTANT: groups only work while the Manager is running. When you
+   turn the Manager off (or switch to Sync: OFF), the group badges
+   disappear from your tracks — a sign that grouping is paused. Start
+   it again and everything comes back, with the same balance.
+
+7. (Optional) Fast Group icon on REAPER's toolbar
+   a) Unzip "Emelowsky - Fast Group (toolbar icon).zip" into REAPER's
+      resource path (Options → Show REAPER resource path...) — the files go to
+      Data/toolbar_icons (+ 150 and 200 versions for scaled displays).
+   b) Right-click the toolbar → Customize toolbar... → Add... → pick the action
+      "Script: Emelowsky - Fast Group (manager).lua" → select it in the list
+      → Icon... → choose "Emelowsky - Fast Group" → Save.
+
+Done — you're ready to launch Fast Group. The full user guide (every
+feature, license activation, customization, troubleshooting) is in the
+separate manual included with your download.

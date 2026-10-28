@@ -1,0 +1,42 @@
+Individual Take Sync Group - wersja dla REAPERa 6 (Lua 5.3)
+=============================================================
+
+[PL]
+Plik .lua w tym folderze to bytecode Lua 5.3 - działa TYLKO w REAPERze 6.x.
+REAPER 7 ma Lua 5.4 - tam używamy folderu "Lua 5.4 (REAPER 7)".
+
+Instalacja:
+1. REAPER > Options > Show REAPER resource path... > Scripts > utwórz folder
+   "Individual Take Sync Group" i skopiuj do niego plik .lua z tego folderu.
+2. Wymagane: ReaImGui (Extensions > ReaPack > Browse packages > ReaImGui) - najnowszy,
+   jaki ReaPack pokaże dla tej wersji REAPERa. Opcjonalnie js_ReaScriptAPI (okna "zawsze na
+   wierzchu" bez migania, tylko nad REAPERem).
+3. Actions > Show action list > New action > Load ReaScript... >
+   "Emelowsky - Individual Take Sync Group.lua".
+4. (Opcjonalnie) Ikona na pasek narzędzi: rozpakuj
+   "Emelowsky - Individual Take Sync Group (toolbar icon).zip" do folderu zasobów REAPERa,
+   potem Customize toolbar > Add > akcja skryptu > Icon... > "Emelowsky - Individual Take Sync Group".
+
+ReaPack (zamiast kroków 1 i 3): Import repositories > https://raw.githubusercontent.com/Emelowsky/reapack/main/index.xml,
+potem Browse packages > "Emelowsky - Individual Take Sync Group (REAPER 6, Lua 5.3)" > Install. Plik trafia do
+Scripts/Emelowsky/Individual Take Sync Group (REAPER 6, Lua 5.3)/, a akcję ReaPack dodaje sam.
+
+[EN]
+The .lua file in this folder is Lua 5.3 bytecode - it works ONLY in REAPER 6.x.
+REAPER 7 uses Lua 5.4 - use the "Lua 5.4 (REAPER 7)" folder there.
+
+Installation:
+1. REAPER > Options > Show REAPER resource path... > Scripts > create a folder
+   "Individual Take Sync Group" and copy the .lua file from this folder into it.
+2. Required: ReaImGui (Extensions > ReaPack > Browse packages > ReaImGui) - the newest
+   version ReaPack offers for this REAPER version. Optional: js_ReaScriptAPI (flicker-free
+   "always on top" windows, only over REAPER).
+3. Actions > Show action list > New action > Load ReaScript... >
+   "Emelowsky - Individual Take Sync Group.lua".
+4. (Optional) Toolbar icon: unzip "Emelowsky - Individual Take Sync Group (toolbar icon).zip"
+   into the REAPER resource path, then Customize toolbar > Add > the script's action > Icon... >
+   "Emelowsky - Individual Take Sync Group".
+
+ReaPack (instead of steps 1 and 3): Import repositories > https://raw.githubusercontent.com/Emelowsky/reapack/main/index.xml,
+then Browse packages > "Emelowsky - Individual Take Sync Group (REAPER 6, Lua 5.3)" > Install. The file goes to
+Scripts/Emelowsky/Individual Take Sync Group (REAPER 6, Lua 5.3)/, and ReaPack adds the action itself.

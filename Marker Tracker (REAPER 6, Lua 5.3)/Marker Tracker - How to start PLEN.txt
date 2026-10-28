@@ -1,0 +1,135 @@
+MARKER TRACKER — SZYBKI START / QUICK START
+============================================
+
+
+─────────────────────────────────────────
+PL — INSTRUKCJA INSTALACJI
+─────────────────────────────────────────
+
+INSTALACJA PRZEZ REAPACK (zamiast kroków 1-4)
+   Zamiast kopiować plik ręcznie możesz zainstalować Marker Tracker przez ReaPack -
+   wtedy aktualizacje przychodzą same (Extensions → ReaPack → Synchronize packages).
+   a) Extensions → ReaPack → Import repositories... i wklej adres:
+       https://raw.githubusercontent.com/Emelowsky/reapack/main/index.xml
+   b) Extensions → ReaPack → Browse packages... → wyszukaj "Marker Tracker" →
+      zaznacz "Emelowsky - Marker Tracker" → Install → Apply.
+   c) UWAGA - INNY FOLDER: ReaPack instaluje skrypt do
+       .../REAPER/Scripts/Emelowsky/Marker Tracker/
+      (z dodatkowym folderem "Emelowsky"), a nie do .../REAPER/Scripts/Marker Tracker/
+      jak przy instalacji ręcznej.
+   d) Akcję "Emelowsky - Marker Tracker" ReaPack sam dodaje do Action List -
+      krok 4 pomijasz.
+   e) Wybierz JEDEN sposób instalacji - kopia ręczna i kopia z ReaPacka to dwie
+      osobne akcje (ustawienia mają wspólne).
+   Ikona paska narzędzi (krok 5 - z paczki ze sklepu) działa tak samo.
+
+1. Otwórz folder zasobów REAPERa
+   W REAPERze: Options → Show REAPER resource path in explorer/finder.
+
+2. Stwórz folder na skrypt (jeśli jeszcze nie istnieje)
+   W środku znajdź folder "Scripts", a w nim utwórz nowy podfolder o nazwie:
+       Marker Tracker
+   Docelowa ścieżka będzie wyglądać mniej więcej tak:
+       .../REAPER/Scripts/Marker Tracker/
+
+3. Wgraj plik skryptu - tylko JEDEN plik jest potrzebny
+   Marker Tracker to jeden, w pełni samodzielny plik:
+       .../REAPER/Scripts/Marker Tracker/Emelowsky - Marker Tracker.lua
+   REAPER 7: plik z folderu "Lua 5.4 (REAPER 7)". REAPER 6: plik z paczki
+   "(REAPER 6, Lua 5.3)".
+   Skrypt jest bezpłatny i nie wymaga aktywacji. Wymaga rozszerzenia
+   ReaImGui (Extensions → ReaPack → Browse packages…, wyszukaj "ReaImGui").
+   Opcjonalnie: js_ReaScriptAPI (też przez ReaPack) - pewniejsze "Zawsze na
+   wierzchu" i blokada pozycji względem okna REAPERa.
+
+4. Dodaj skrypt do listy akcji REAPERa (Actions)
+   a) W REAPERze: Actions → Show action list.
+   b) Kliknij "New action..." → "Load ReaScript...".
+   c) Wskaż plik .lua, który wgrałeś w kroku 3.
+   d) Skrypt pojawi się na liście akcji jako "Emelowsky - Marker Tracker".
+   WAŻNE: jeśli przypisujesz skrót klawiszowy, w oknie wyboru klawisza wybierz
+   Scope "Global + text fields", a nie samo "Global" - inaczej skrót nie
+   zadziała, gdy kursor stoi w polu tekstowym.
+
+5. Przycisk na pasku narzędzi (zalecany)
+   a) Rozpakuj "Emelowsky - Marker Tracker (toolbar icon).zip" do folderu
+      zasobów REAPERa (krok 1) - ikony trafią do Data/toolbar_icons/.
+   b) PPM na pasku narzędzi → Customize toolbar... → Add... → wybierz
+      "Emelowsky - Marker Tracker".
+   c) Zaznacz nowy przycisk → Icon... → wybierz "Emelowsky - Marker Tracker"
+      → OK → Save.
+   Przycisk świeci, gdy licznik jest włączony; drugie kliknięcie go zamyka.
+
+Gotowe - możesz uruchomić Marker Tracker. Licznik nie ma paska tytułu:
+przeciągnij go lewym przyciskiem myszy, a prawym otwórz menu - tryb (markery /
+regiony), dwie blokady pozycji (względem ekranu albo względem okna REAPERa),
+"Zawsze na wierzchu", "Opcje" (język, wygląd, "O skrypcie") i "Zamknij Marker
+Tracker". Pełna instrukcja obsługi jest w osobnym manualu PDF dołączonym do
+pobrania ("Marker Tracker - instrukcja obslugi (PL).pdf").
+
+
+─────────────────────────────────────────
+EN — INSTALLATION GUIDE
+─────────────────────────────────────────
+
+INSTALLING WITH REAPACK (instead of steps 1-4)
+   Instead of copying the file by hand you can install Marker Tracker with
+   ReaPack - updates then arrive on their own (Extensions → ReaPack →
+   Synchronize packages).
+   a) Extensions → ReaPack → Import repositories... and paste the address:
+       https://raw.githubusercontent.com/Emelowsky/reapack/main/index.xml
+   b) Extensions → ReaPack → Browse packages... → search for "Marker Tracker" →
+      tick "Emelowsky - Marker Tracker" → Install → Apply.
+   c) NOTE - A DIFFERENT FOLDER: ReaPack installs the script into
+       .../REAPER/Scripts/Emelowsky/Marker Tracker/
+      (with an extra "Emelowsky" folder), not into .../REAPER/Scripts/Marker Tracker/
+      as with a manual install.
+   d) ReaPack adds the "Emelowsky - Marker Tracker" action to the Action List
+      by itself - skip step 4.
+   e) Pick ONE way to install - a manual copy and a ReaPack copy are two
+      separate actions (they share the settings).
+   The toolbar icon (step 5 - from the shop package) works the same way.
+
+1. Open REAPER's resource path
+   In REAPER: Options → Show REAPER resource path in explorer/finder.
+
+2. Create a folder for the script (if it doesn't exist yet)
+   Inside, find the "Scripts" folder, and create a new subfolder named:
+       Marker Tracker
+   The final path should look roughly like this:
+       .../REAPER/Scripts/Marker Tracker/
+
+3. Copy the script file in - only ONE file is needed
+   Marker Tracker is a single, fully self-contained file:
+       .../REAPER/Scripts/Marker Tracker/Emelowsky - Marker Tracker.lua
+   REAPER 7: the file from the "Lua 5.4 (REAPER 7)" folder. REAPER 6: the file
+   from the "(REAPER 6, Lua 5.3)" package.
+   The script is free and needs no activation. It requires the ReaImGui
+   extension (Extensions → ReaPack → Browse packages…, search for
+   "ReaImGui"). Optional: js_ReaScriptAPI (also from ReaPack) - more reliable
+   "Always on top" and the lock to the REAPER window.
+
+4. Add the script to REAPER's Action list
+   a) In REAPER: Actions → Show action list.
+   b) Click "New action..." → "Load ReaScript...".
+   c) Point it to the .lua file you copied in step 3.
+   d) The script will appear in the action list as "Emelowsky - Marker Tracker".
+   IMPORTANT: if you assign a keyboard shortcut, pick the "Global + text
+   fields" scope in the key dialog, not just "Global" - otherwise the shortcut
+   will not work while the cursor is in a text field.
+
+5. Toolbar button (recommended)
+   a) Unzip "Emelowsky - Marker Tracker (toolbar icon).zip" into REAPER's
+      resource folder (step 1) - the icons go to Data/toolbar_icons/.
+   b) Right-click the toolbar → Customize toolbar... → Add... → pick
+      "Emelowsky - Marker Tracker".
+   c) Select the new button → Icon... → pick "Emelowsky - Marker Tracker"
+      → OK → Save.
+   The button lights up while the counter is on; a second click closes it.
+
+Done - you're ready to launch Marker Tracker. The counter has no title bar:
+drag it with the left mouse button and right-click it for the menu - the mode
+(markers / regions), two position locks (to the screen or to the REAPER
+window), "Always on top", "Options" (language, appearance, "About") and "Close
+Marker Tracker". The full user guide is in the separate PDF manual included
+with your download ("Marker Tracker - user manual (EN).pdf").

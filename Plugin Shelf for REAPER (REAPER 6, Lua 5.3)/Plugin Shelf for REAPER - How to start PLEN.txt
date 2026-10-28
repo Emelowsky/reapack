@@ -1,0 +1,247 @@
+PLUGIN SHELF FOR REAPER — SZYBKI START / QUICK START
+=========================================
+
+
+─────────────────────────────────────────
+PL — INSTRUKCJA INSTALACJI
+─────────────────────────────────────────
+
+INSTALACJA PRZEZ REAPACK (zamiast kroków 1-5 i 7)
+   Zamiast kopiować pliki ręcznie możesz zainstalować Plugin Shelf przez ReaPack -
+   wtedy aktualizacje przychodzą same (Extensions → ReaPack → Synchronize packages).
+   a) Extensions → ReaPack → Import repositories... i wklej adres:
+       https://raw.githubusercontent.com/Emelowsky/reapack/main/index.xml
+   b) Extensions → ReaPack → Browse packages... → wyszukaj "Plugin Shelf" →
+      zaznacz "Emelowsky - Plugin Shelf for REAPER" ORAZ
+      "Emelowsky - Plugin Shelf for REAPER (icon pack)" (ikony) → Install → Apply.
+   c) UWAGA - INNY FOLDER: ReaPack instaluje wszystko do
+       .../REAPER/Scripts/Emelowsky/Plugin Shelf for REAPER/
+      (z dodatkowym folderem "Emelowsky"), a nie do .../REAPER/Scripts/Plugin Shelf for REAPER/
+      jak przy instalacji ręcznej. Ikony trafiają tam same - niczego nie rozpakowujesz.
+   d) Obie akcje (Plugin Shelf i Override) ReaPack sam dodaje do Action List -
+      krok 5 pomijasz. Override nadal wymaga js_ReaScriptAPI.
+   e) Wybierz JEDEN sposób instalacji. Kopia ręczna i kopia z ReaPacka to dwa
+      osobne skrypty z osobnymi danymi (każdy ma własną półkę). Przenosząc się
+      na ReaPack, skopiuj przy zamkniętym Plugin Shelf plik "user_plugins_3.x.lua"
+      ze starego folderu do nowego.
+   Licencja (krok 6), kreator kategorii (krok 8) i ikona paska narzędzi (krok 9 -
+   z paczki ze sklepu) działają tak samo.
+
+1. Otwórz folder zasobów REAPERa
+   W REAPERze: Options → Show REAPER resource path in explorer/finder.
+
+2. Stwórz folder na skrypt (jeśli jeszcze nie istnieje)
+   W środku znajdź folder "Scripts", a w nim utwórz nowy podfolder o nazwie:
+       Plugin Shelf for REAPER
+   Docelowa ścieżka będzie wyglądać mniej więcej tak:
+       .../REAPER/Scripts/Plugin Shelf for REAPER/
+
+3. Wgraj plik skryptu
+   Skopiuj otrzymany plik .lua bezpośrednio do tego folderu:
+       .../REAPER/Scripts/Plugin Shelf for REAPER/Emelowsky - Plugin Shelf for REAPER.lua
+   Skrypt wymaga rozszerzenia ReaImGui (Extensions → ReaPack → Browse
+   packages…, wyszukaj "ReaImGui").
+   Opcjonalnie: js_ReaScriptAPI (też przez ReaPack) — potrzebne tylko do
+   tworzenia własnych ikon ze zrzutu ekranu (PPM na kafelku).
+
+4. Rozpakuj ikony DO TEGO SAMEGO folderu
+   Paczka ikon to osobny plik do pobrania na Gumroad (obok paczki ze skryptem).
+   WAŻNE: plik "Emelowsky - Plugin Shelf for REAPER (icons).zip" trzeba rozpakować
+   BEZPOŚREDNIO do tego samego folderu, w którym leży plik .lua — NIE do
+   osobnego podfolderu "Icons" czy podobnego. Wszystkie pliki .png z ikonami
+   mają leżeć na tym samym poziomie co sam skrypt:
+       .../REAPER/Scripts/Plugin Shelf for REAPER/Emelowsky - Plugin Shelf for REAPER.lua
+       .../REAPER/Scripts/Plugin Shelf for REAPER/EmelowskyFX - Nazwa Pluginu.png
+       .../REAPER/Scripts/Plugin Shelf for REAPER/EmelowskyFX - Inna Wtyczka.png
+       ... (itd., ponad 4000 plików)
+   Jeśli ikony trafią do osobnego podfolderu, skrypt ich nie znajdzie.
+
+5. Dodaj skrypt do listy akcji REAPERa (Actions)
+   a) W REAPERze: Actions → Show action list.
+   b) Kliknij "New action..." → "Load ReaScript...".
+   c) Wskaż plik .lua, który wgrałeś w kroku 3.
+   d) Skrypt pojawi się na liście akcji jako "Emelowsky - Plugin Shelf" — od
+      teraz możesz go uruchomić przyciskiem "Run", przypisać mu skrót
+      klawiszowy, albo dodać jako przycisk na pasku narzędzi.
+   Przy przypisywaniu skrótu ustaw Scope na "Global + text fields", a nie
+   samo "Global" — inaczej skrót przestanie działać, gdy kursor jest w polu
+   tekstowym Plugin Shelf (np. w polu wyszukiwania).
+
+6. Wersja demo i aktywacja licencji
+   Bez aktywnej licencji Plugin Shelf działa od razu jako wersja demo
+   (limit 4 kategorii i 5 pluginów w kategorii, zablokowane Opcje).
+   Żeby odblokować pełną wersję, kliknij "Mam klucz - aktywuj" / "I have
+   a key - activate" obok napisu WERSJA DEMO — otworzy się ekran aktywacji:
+   a) Kliknij "Kopiuj" / "Copy" przy Machine ID (identyfikator tego komputera).
+   b) Kliknij "Otwórz panel klienta" / "Open customer panel" i zaloguj się
+      kluczem licencyjnym z Gumroada (przyszedł mailem po zakupie) i adresem
+      e-mail użytym przy zakupie. Wklej Machine ID — panel wyda klucz
+      produktu dla tego komputera.
+   c) Wklej CAŁY klucz produktu do pola "Klucz produktu z panelu klienta" /
+      "Product key from the customer panel" (pole jest wielowierszowe,
+      wklejasz cały blok naraz) i wpisz ten sam adres e-mail.
+      Uwaga: to nie jest klucz licencyjny z Gumroada — tamten służy tylko
+      do logowania w panelu.
+   d) Kliknij "Aktywuj" / "Activate" — skrypt od razu przełączy się
+      w pełną wersję, a Twoje kategorie i pluginy zostają na miejscu.
+   Aktywacja nie wymaga stałego dostępu do internetu — brak połączenia
+   nigdy nie wyłącza licencji. Licencja jest wieczysta — płacisz raz,
+   bez subskrypcji.
+
+7. (Opcjonalnie) Plugin Shelf for REAPER Override — Plugin Shelf zamiast okna "Add FX"
+   W paczce jest też plik "Emelowsky - Plugin Shelf for REAPER Override.lua". Gdy go
+   włączysz, kliknięcie przycisku FX na śladzie, w mikserze albo w slocie
+   wtyczek otworzy Plugin Shelf zamiast natywnego okna REAPERa "Add FX".
+   a) Skopiuj go do TEGO SAMEGO folderu co Plugin Shelf:
+       .../REAPER/Scripts/Plugin Shelf for REAPER/Emelowsky - Plugin Shelf for REAPER Override.lua
+   b) Wymaga rozszerzenia js_ReaScriptAPI (ReaPack, wyszukaj
+      "js_ReaScriptAPI").
+   c) Dodaj go do Action List tak samo jak w kroku 5 ("Load ReaScript...").
+   d) Uruchomienie akcji włącza Override (działa w tle, bez okna),
+      ponowne uruchomienie — wyłącza.
+   Szczegóły: osobny manual "Plugin Shelf for REAPER Override - Manual (PL)".
+
+8. Pierwsze uruchomienie — automatyczne kategorie
+   Gdy półka jest pusta, kliknij przycisk "Automatyczne kategorie..." pod logo -
+   kreator doda zainstalowane wtyczki i ułoży je w kategorie:
+   - AUTO — wszystko od razu, kategorie tworzy sam (jak w REAPERze albo po nazwie),
+   - SemiAUTO — o każdą wtyczkę pyta: Tak / Nie (wtedy wybierasz inną albo nową kategorię),
+   - REAPER COPY — kopiuje kategorie i foldery z przeglądarki FX REAPERa.
+   Kafelki od razu dostają pasujące ikony. Kreator otworzysz też później:
+   Opcje → Konserwacja → "Automatyczne kategorie...". Przycisk "Widok:
+   kategorie / producenci" (prawy dolny róg) przełącza pasek na producentów.
+
+9. (Opcjonalnie) Ikona Plugin Shelf na pasku narzędzi REAPERa
+   a) Rozpakuj "Emelowsky - Plugin Shelf for REAPER (toolbar icon).zip" do folderu
+      zasobów REAPERa (Options → Show REAPER resource path...) — pliki trafią do
+      Data/toolbar_icons (+ wersje 150 i 200 dla ekranów o większej skali).
+   b) Prawy klik na pasku narzędzi → Customize toolbar... → Add... → wybierz akcję
+      "Script: Emelowsky - Plugin Shelf for REAPER.lua" → zaznacz ją na liście
+      → Icon... → wybierz "Emelowsky - Plugin Shelf" → Save.
+
+Gotowe — możesz uruchomić Plugin Shelf. Pełna instrukcja obsługi (wszystkie
+funkcje, personalizacja, licencja, rozwiązywanie problemów) znajduje się
+w osobnym manualu dołączonym do pobrania ("Plugin Shelf for REAPER - Manual").
+
+
+─────────────────────────────────────────
+EN — INSTALLATION GUIDE
+─────────────────────────────────────────
+
+INSTALLING WITH REAPACK (instead of steps 1-5 and 7)
+   Instead of copying the files by hand you can install Plugin Shelf with ReaPack -
+   updates then arrive by themselves (Extensions → ReaPack → Synchronize packages).
+   a) Extensions → ReaPack → Import repositories... and paste:
+       https://raw.githubusercontent.com/Emelowsky/reapack/main/index.xml
+   b) Extensions → ReaPack → Browse packages... → search for "Plugin Shelf" →
+      tick "Emelowsky - Plugin Shelf for REAPER" AND
+      "Emelowsky - Plugin Shelf for REAPER (icon pack)" (icons) → Install → Apply.
+   c) NOTE - DIFFERENT FOLDER: ReaPack installs everything into
+       .../REAPER/Scripts/Emelowsky/Plugin Shelf for REAPER/
+      (with an extra "Emelowsky" folder), not .../REAPER/Scripts/Plugin Shelf for REAPER/
+      as in the manual install. The icons go there automatically - nothing to unzip.
+   d) ReaPack adds both actions (Plugin Shelf and Override) to the Action List
+      for you - skip step 5. Override still needs js_ReaScriptAPI.
+   e) Pick ONE way of installing. The manual copy and the ReaPack copy are two
+      separate scripts with separate data (each has its own shelf). When you move
+      to ReaPack, copy "user_plugins_3.x.lua" from the old folder to the new one
+      while Plugin Shelf is closed.
+   License (step 6), the categories wizard (step 8) and the toolbar icon (step 9 -
+   from the shop download) work the same way.
+
+1. Open REAPER's resource path
+   In REAPER: Options → Show REAPER resource path in explorer/finder.
+
+2. Create a folder for the script (if it doesn't exist yet)
+   Inside, find the "Scripts" folder, and create a new subfolder named:
+       Plugin Shelf for REAPER
+   The final path should look roughly like this:
+       .../REAPER/Scripts/Plugin Shelf for REAPER/
+
+3. Copy the script file in
+   Copy the .lua file you received directly into that folder:
+       .../REAPER/Scripts/Plugin Shelf for REAPER/Emelowsky - Plugin Shelf for REAPER.lua
+   The script requires the ReaImGui extension (Extensions → ReaPack →
+   Browse packages…, search for "ReaImGui").
+   Optional: js_ReaScriptAPI (also via ReaPack) — needed only for creating
+   your own icons from a screen capture (right-click a tile).
+
+4. Unzip the icons INTO THAT SAME folder
+   The icon pack is a separate download on Gumroad (next to the script package).
+   IMPORTANT: the "Emelowsky - Plugin Shelf for REAPER (icons).zip" file must be unzipped
+   DIRECTLY into the same folder where the .lua file lives — NOT into a
+   separate "Icons" subfolder or similar. All the icon .png files need to
+   sit at the same level as the script itself:
+       .../REAPER/Scripts/Plugin Shelf for REAPER/Emelowsky - Plugin Shelf for REAPER.lua
+       .../REAPER/Scripts/Plugin Shelf for REAPER/EmelowskyFX - Plugin Name.png
+       .../REAPER/Scripts/Plugin Shelf for REAPER/EmelowskyFX - Another Plugin.png
+       ... (and so on, over 4000 files)
+   If the icons end up in a separate subfolder, the script won't find them.
+
+5. Add the script to REAPER's Action list
+   a) In REAPER: Actions → Show action list.
+   b) Click "New action..." → "Load ReaScript...".
+   c) Point it to the .lua file you copied in step 3.
+   d) The script will appear in the action list as "Emelowsky - Plugin Shelf" —
+      you can now run it with "Run", assign it a keyboard shortcut,
+      or add it as a toolbar button.
+   When assigning a shortcut, set its Scope to "Global + text fields", not
+   just "Global" — otherwise the shortcut stops working while the cursor is
+   in a Plugin Shelf text field (e.g. the search field).
+
+6. Demo version and license activation
+   Without an active license, Plugin Shelf runs straight away as the demo
+   version (4 categories, 5 plugins per category, Options locked).
+   To unlock the full version, click "I have a key - activate" next to the
+   DEMO VERSION label — the license activation screen opens:
+   a) Click "Copy" next to the Machine ID (this computer's identifier).
+   b) Click "Open customer panel" and log in with the license key from
+      Gumroad (it came by e-mail after your purchase) and the email address
+      used at purchase. Paste the Machine ID — the panel issues a product
+      key for this computer.
+   c) Paste the WHOLE product key into the "Product key from the customer
+      panel" field (the field is multi-line, so paste the entire block at
+      once) and enter the same email address.
+      Note: this is not the Gumroad license key — that one is only for
+      logging in to the panel.
+   d) Click "Activate" — the script switches to the full version right
+      away, and your categories and plugins stay in place.
+   Activation doesn't need a constant internet connection — being offline
+   never deactivates your license. The license is perpetual — you pay once,
+   no subscription.
+
+7. (Optional) Plugin Shelf for REAPER Override — Plugin Shelf instead of the "Add FX" window
+   The package also contains "Emelowsky - Plugin Shelf for REAPER Override.lua". When it
+   is on, clicking the FX button on a track, in the mixer or on a plugin
+   slot opens Plugin Shelf instead of REAPER's native "Add FX" window.
+   a) Copy it into THE SAME folder as Plugin Shelf:
+       .../REAPER/Scripts/Plugin Shelf for REAPER/Emelowsky - Plugin Shelf for REAPER Override.lua
+   b) It requires the js_ReaScriptAPI extension (ReaPack, search for
+      "js_ReaScriptAPI").
+   c) Add it to the Action List the same way as in step 5
+      ("Load ReaScript...").
+   d) Running the action turns Override on (it runs in the background, with
+      no window); running it again turns it off.
+   Details: the separate "Plugin Shelf for REAPER Override - Manual (EN)".
+
+8. First launch — automatic categories
+   When the shelf is empty, click the "Automatic categories..." button under the
+   logo - the wizard adds your installed plugins and sorts them into categories:
+   - AUTO — everything at once, categories created for you (as in REAPER or by name),
+   - SemiAUTO — asks about every plugin: Yes / No (then pick another or a new category),
+   - REAPER COPY — copies the categories and folders from REAPER's FX browser.
+   Tiles get matching icons right away. You can open the wizard later too:
+   Options → Maintenance → "Automatic categories...". The "View: categories /
+   developers" button (bottom right) switches the bar to developers.
+
+9. (Optional) Plugin Shelf icon on REAPER's toolbar
+   a) Unzip "Emelowsky - Plugin Shelf for REAPER (toolbar icon).zip" into REAPER's
+      resource path (Options → Show REAPER resource path...) — the files go to
+      Data/toolbar_icons (+ 150 and 200 versions for scaled displays).
+   b) Right-click the toolbar → Customize toolbar... → Add... → pick the action
+      "Script: Emelowsky - Plugin Shelf for REAPER.lua" → select it in the list
+      → Icon... → choose "Emelowsky - Plugin Shelf" → Save.
+
+Done — you're ready to launch Plugin Shelf. The full user guide (every
+feature, visual customization, license, troubleshooting) is in the separate
+manual included with your download ("Plugin Shelf for REAPER - Manual").

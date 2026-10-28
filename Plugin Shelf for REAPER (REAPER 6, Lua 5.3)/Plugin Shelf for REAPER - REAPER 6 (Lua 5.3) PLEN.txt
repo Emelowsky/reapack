@@ -1,0 +1,50 @@
+Plugin Shelf for REAPER - wersja dla REAPERa 6 (Lua 5.3)
+=========================================================
+
+[PL]
+Pliki .lua w tym folderze to bytecode Lua 5.3 - działają TYLKO w REAPERze 6.x.
+REAPER 7 ma Lua 5.4 - tam używamy folderu "Lua 5.4 (REAPER 7)".
+Wersja dla REAPERa 6 jest w trakcie testów.
+
+Instalacja:
+1. REAPER > Options > Show REAPER resource path... > Scripts > utwórz folder
+   "Plugin Shelf for REAPER" i skopiuj do niego oba pliki .lua z tego folderu.
+2. Do tego samego folderu rozpakuj ikony: "Emelowsky - Plugin Shelf for REAPER (icons).zip".
+3. Wymagane: ReaImGui (Extensions > ReaPack > Browse packages > ReaImGui) - najnowszy,
+   jaki ReaPack pokaże dla tej wersji REAPERa. Opcjonalnie js_ReaScriptAPI i SWS.
+4. Actions > Show action list > New action > Load ReaScript... >
+   "Emelowsky - Plugin Shelf for REAPER.lua" > Run.
+5. (Opcjonalnie) Ikona na pasek narzędzi: rozpakuj "Emelowsky - Plugin Shelf for REAPER (toolbar icon).zip"
+   do folderu zasobów REAPERa, potem Customize toolbar > Add > akcja skryptu > Icon... >
+   "Emelowsky - Plugin Shelf".
+
+Dla testujących - co zapisać i odesłać:
+- wersja REAPERa (Help > About REAPER) i wersja ReaImGui,
+- czy okno się otwiera; jeśli jest błąd - zrzut ekranu całego okna błędu,
+- szybki przegląd: DEMO + ekran aktywacji, automatyczne kategorie, wstawienie wtyczki
+  kliknięciem, przeciąganie kafelków, Opcje (kolory - okienko OK/Anuluj, logo na górze),
+  ikona ze zrzutu ekranu.
+
+[EN]
+The .lua files in this folder are Lua 5.3 bytecode - they work ONLY in REAPER 6.x.
+REAPER 7 uses Lua 5.4 - use the "Lua 5.4 (REAPER 7)" folder there.
+The REAPER 6 version is being tested.
+
+Installation:
+1. REAPER > Options > Show REAPER resource path... > Scripts > create a folder
+   "Plugin Shelf for REAPER" and copy both .lua files from this folder into it.
+2. Unzip the icons into that same folder: "Emelowsky - Plugin Shelf for REAPER (icons).zip".
+3. Required: ReaImGui (Extensions > ReaPack > Browse packages > ReaImGui) - the newest
+   version ReaPack offers for this REAPER version. Optional: js_ReaScriptAPI and SWS.
+4. Actions > Show action list > New action > Load ReaScript... >
+   "Emelowsky - Plugin Shelf for REAPER.lua" > Run.
+5. (Optional) Toolbar icon: unzip "Emelowsky - Plugin Shelf for REAPER (toolbar icon).zip" into
+   the REAPER resource path, then Customize toolbar > Add > the script action > Icon... >
+   "Emelowsky - Plugin Shelf".
+
+For testers - what to note down and send back:
+- REAPER version (Help > About REAPER) and ReaImGui version,
+- does the window open; if there is an error - a screenshot of the whole error window,
+- a quick check: DEMO + activation screen, automatic categories, inserting a plugin
+  with a click, dragging tiles, Options (colors - OK/Cancel picker, logo at the top),
+  icon from a screen capture.

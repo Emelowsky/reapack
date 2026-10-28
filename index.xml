@@ -39,7 +39,7 @@ Manuals and toolbar icon: in the Gumroad download.
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.7.93" author="Emelowsky" time="2026-10-28T11:39:38Z">
+      <version name="3.7.93" author="Emelowsky" time="2026-10-28T13:22:55Z">
         <changelog><![CDATA[v3.7.93
 - REAPER dialogs (e.g. the question about terminating the script when you run it again on REAPER 6) always stay above the Plugin Shelf windows, also when you click a Plugin Shelf window and with "Always on top" on or off
 
@@ -53,8 +53,18 @@ v3.7.9
 - New category: pick the text color right away, next to the category color (Add category, Add plugin, Edit properties)
 - All notes: click inserts the plugin (like its tile), right-click opens editing
 - The script also starts when the REAPER path has non-English letters (e.g. C:\Users\Sławek)]]></changelog>
+        <source file="EULA - Plugin Shelf for REAPER EN.pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/EULA%20-%20Plugin%20Shelf%20for%20REAPER%20EN.pdf</source>
+        <source file="EULA - Plugin Shelf for REAPER PL.pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/EULA%20-%20Plugin%20Shelf%20for%20REAPER%20PL.pdf</source>
+        <source file="Emelowsky - Plugin Shelf for REAPER (toolbar icon).zip">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/Emelowsky%20-%20Plugin%20Shelf%20for%20REAPER%20%28toolbar%20icon%29.zip</source>
         <source main="main" file="Emelowsky - Plugin Shelf for REAPER Override.lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/Emelowsky%20-%20Plugin%20Shelf%20for%20REAPER%20Override.lua</source>
         <source main="main" file="Emelowsky - Plugin Shelf for REAPER.lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/Emelowsky%20-%20Plugin%20Shelf%20for%20REAPER.lua</source>
+        <source file="Plugin Shelf for REAPER - Appendix (EN).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/Plugin%20Shelf%20for%20REAPER%20-%20Appendix%20%28EN%29.pdf</source>
+        <source file="Plugin Shelf for REAPER - Appendix (PL).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/Plugin%20Shelf%20for%20REAPER%20-%20Appendix%20%28PL%29.pdf</source>
+        <source file="Plugin Shelf for REAPER - How to start PLEN.txt">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/Plugin%20Shelf%20for%20REAPER%20-%20How%20to%20start%20PLEN.txt</source>
+        <source file="Plugin Shelf for REAPER - Manual (EN).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/Plugin%20Shelf%20for%20REAPER%20-%20Manual%20%28EN%29.pdf</source>
+        <source file="Plugin Shelf for REAPER - Manual (PL).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/Plugin%20Shelf%20for%20REAPER%20-%20Manual%20%28PL%29.pdf</source>
+        <source file="Plugin Shelf for REAPER Override - Manual (EN).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/Plugin%20Shelf%20for%20REAPER%20Override%20-%20Manual%20%28EN%29.pdf</source>
+        <source file="Plugin Shelf for REAPER Override - Manual (PL).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/Plugin%20Shelf%20for%20REAPER%20Override%20-%20Manual%20%28PL%29.pdf</source>
       </version>
     </reapack>
     <reapack name="Emelowsky - Plugin Shelf for REAPER (icon pack)" type="script" desc="Emelowsky - Plugin Shelf for REAPER (icon pack)">
@@ -71,7 +81,7 @@ All products: https://emelowsky.gumroad.com
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.0" author="Emelowsky" time="2026-10-28T11:39:38Z">
+      <version name="1.0" author="Emelowsky" time="2026-10-28T13:22:55Z">
         <changelog><![CDATA[v1.0
 Icon pack for Plugin Shelf for REAPER: 4125 plugin icons.]]></changelog>
         <source file="EmelowskyFX - AIR CHORUS.png">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/icons/EmelowskyFX%20-%20AIR%20CHORUS.png</source>
@@ -4229,7 +4239,7 @@ Manuals and toolbar icon: in the Gumroad download.
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.7.93" author="Emelowsky" time="2026-10-28T11:39:38Z">
+      <version name="3.7.93" author="Emelowsky" time="2026-10-28T13:22:55Z">
         <changelog><![CDATA[v3.7.93
 - REAPER dialogs (e.g. the question about terminating the script when you run it again on REAPER 6) always stay above the Plugin Shelf windows, also when you click a Plugin Shelf window and with "Always on top" on or off
 
@@ -4243,8 +4253,19 @@ v3.7.9
 - New category: pick the text color right away, next to the category color (Add category, Add plugin, Edit properties)
 - All notes: click inserts the plugin (like its tile), right-click opens editing
 - The script also starts when the REAPER path has non-English letters (e.g. C:\Users\Sławek)]]></changelog>
+        <source file="EULA - Plugin Shelf for REAPER EN.pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/EULA%20-%20Plugin%20Shelf%20for%20REAPER%20EN.pdf</source>
+        <source file="EULA - Plugin Shelf for REAPER PL.pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/EULA%20-%20Plugin%20Shelf%20for%20REAPER%20PL.pdf</source>
+        <source file="Emelowsky - Plugin Shelf for REAPER (toolbar icon).zip">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Emelowsky%20-%20Plugin%20Shelf%20for%20REAPER%20%28toolbar%20icon%29.zip</source>
         <source main="main" file="Emelowsky - Plugin Shelf for REAPER Override.lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Emelowsky%20-%20Plugin%20Shelf%20for%20REAPER%20Override.lua</source>
         <source main="main" file="Emelowsky - Plugin Shelf for REAPER.lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Emelowsky%20-%20Plugin%20Shelf%20for%20REAPER.lua</source>
+        <source file="Plugin Shelf for REAPER - Appendix (EN).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Plugin%20Shelf%20for%20REAPER%20-%20Appendix%20%28EN%29.pdf</source>
+        <source file="Plugin Shelf for REAPER - Appendix (PL).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Plugin%20Shelf%20for%20REAPER%20-%20Appendix%20%28PL%29.pdf</source>
+        <source file="Plugin Shelf for REAPER - How to start PLEN.txt">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Plugin%20Shelf%20for%20REAPER%20-%20How%20to%20start%20PLEN.txt</source>
+        <source file="Plugin Shelf for REAPER - Manual (EN).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Plugin%20Shelf%20for%20REAPER%20-%20Manual%20%28EN%29.pdf</source>
+        <source file="Plugin Shelf for REAPER - Manual (PL).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Plugin%20Shelf%20for%20REAPER%20-%20Manual%20%28PL%29.pdf</source>
+        <source file="Plugin Shelf for REAPER - REAPER 6 (Lua 5.3) PLEN.txt">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Plugin%20Shelf%20for%20REAPER%20-%20REAPER%206%20%28Lua%205.3%29%20PLEN.txt</source>
+        <source file="Plugin Shelf for REAPER Override - Manual (EN).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Plugin%20Shelf%20for%20REAPER%20Override%20-%20Manual%20%28EN%29.pdf</source>
+        <source file="Plugin Shelf for REAPER Override - Manual (PL).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Plugin%20Shelf%20for%20REAPER%20Override%20-%20Manual%20%28PL%29.pdf</source>
       </version>
     </reapack>
   </category>
@@ -4271,7 +4292,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.12" author="Emelowsky" time="2026-10-28T11:39:38Z">
+      <version name="3.12" author="Emelowsky" time="2026-10-28T13:22:55Z">
         <changelog><![CDATA[v3.12
 - First release on ReaPack
 - Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
@@ -4281,9 +4302,15 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
 - Popups no longer block the main window
 - Same look as the whole Emelowsky Plugins family: colors, corner rounding 0-20 px, new default look
 - Runs on REAPER 6 too (separate Lua 5.3 package)]]></changelog>
+        <source file="EULA - Fast Group EN.pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Fast%20Group/EULA%20-%20Fast%20Group%20EN.pdf</source>
+        <source file="EULA - Fast Group PL.pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Fast%20Group/EULA%20-%20Fast%20Group%20PL.pdf</source>
         <source main="main" file="Emelowsky - Fast Group (Popup).lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Fast%20Group/Emelowsky%20-%20Fast%20Group%20%28Popup%29.lua</source>
         <source main="main" file="Emelowsky - Fast Group (manager).lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Fast%20Group/Emelowsky%20-%20Fast%20Group%20%28manager%29.lua</source>
+        <source file="Emelowsky - Fast Group (toolbar icon).zip">https://raw.githubusercontent.com/Emelowsky/reapack/main/Fast%20Group/Emelowsky%20-%20Fast%20Group%20%28toolbar%20icon%29.zip</source>
         <source file="Emelowsky - Fast Group Core.lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Fast%20Group/Emelowsky%20-%20Fast%20Group%20Core.lua</source>
+        <source file="Fast Group - How to start PLEN.txt">https://raw.githubusercontent.com/Emelowsky/reapack/main/Fast%20Group/Fast%20Group%20-%20How%20to%20start%20PLEN.txt</source>
+        <source file="Fast Group - Manual (EN).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Fast%20Group/Fast%20Group%20-%20Manual%20%28EN%29.pdf</source>
+        <source file="Fast Group - Manual (PL).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Fast%20Group/Fast%20Group%20-%20Manual%20%28PL%29.pdf</source>
       </version>
     </reapack>
   </category>
@@ -4312,7 +4339,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.12" author="Emelowsky" time="2026-10-28T11:39:38Z">
+      <version name="3.12" author="Emelowsky" time="2026-10-28T13:22:55Z">
         <changelog><![CDATA[v3.12
 - First release on ReaPack
 - Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
@@ -4322,9 +4349,16 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
 - Popups no longer block the main window
 - Same look as the whole Emelowsky Plugins family: colors, corner rounding 0-20 px, new default look
 - Runs on REAPER 6 too (separate Lua 5.3 package)]]></changelog>
+        <source file="EULA - Fast Group EN.pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Fast%20Group%20%28REAPER%206%2C%20Lua%205.3%29/EULA%20-%20Fast%20Group%20EN.pdf</source>
+        <source file="EULA - Fast Group PL.pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Fast%20Group%20%28REAPER%206%2C%20Lua%205.3%29/EULA%20-%20Fast%20Group%20PL.pdf</source>
         <source main="main" file="Emelowsky - Fast Group (Popup).lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Fast%20Group%20%28REAPER%206%2C%20Lua%205.3%29/Emelowsky%20-%20Fast%20Group%20%28Popup%29.lua</source>
         <source main="main" file="Emelowsky - Fast Group (manager).lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Fast%20Group%20%28REAPER%206%2C%20Lua%205.3%29/Emelowsky%20-%20Fast%20Group%20%28manager%29.lua</source>
+        <source file="Emelowsky - Fast Group (toolbar icon).zip">https://raw.githubusercontent.com/Emelowsky/reapack/main/Fast%20Group%20%28REAPER%206%2C%20Lua%205.3%29/Emelowsky%20-%20Fast%20Group%20%28toolbar%20icon%29.zip</source>
         <source file="Emelowsky - Fast Group Core.lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Fast%20Group%20%28REAPER%206%2C%20Lua%205.3%29/Emelowsky%20-%20Fast%20Group%20Core.lua</source>
+        <source file="Fast Group - How to start PLEN.txt">https://raw.githubusercontent.com/Emelowsky/reapack/main/Fast%20Group%20%28REAPER%206%2C%20Lua%205.3%29/Fast%20Group%20-%20How%20to%20start%20PLEN.txt</source>
+        <source file="Fast Group - Manual (EN).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Fast%20Group%20%28REAPER%206%2C%20Lua%205.3%29/Fast%20Group%20-%20Manual%20%28EN%29.pdf</source>
+        <source file="Fast Group - Manual (PL).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Fast%20Group%20%28REAPER%206%2C%20Lua%205.3%29/Fast%20Group%20-%20Manual%20%28PL%29.pdf</source>
+        <source file="Fast Group - REAPER 6 (Lua 5.3) PLEN.txt">https://raw.githubusercontent.com/Emelowsky/reapack/main/Fast%20Group%20%28REAPER%206%2C%20Lua%205.3%29/Fast%20Group%20-%20REAPER%206%20%28Lua%205.3%29%20PLEN.txt</source>
       </version>
     </reapack>
   </category>
@@ -4352,7 +4386,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="2.2.0" author="Emelowsky" time="2026-10-28T11:39:38Z">
+      <version name="2.2.0" author="Emelowsky" time="2026-10-28T13:22:55Z">
         <changelog><![CDATA[v2.2.0
 - First release on ReaPack
 - Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
@@ -4363,7 +4397,13 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
 - Same look as the whole Emelowsky Plugins family: colors, corner rounding 0-20 px, new default look
 - Backups per project, 6 periodic backups every 30 minutes
 - Runs on REAPER 6 too (separate Lua 5.3 package)]]></changelog>
+        <source file="EULA - Individual Take Sync Group EN.pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Individual%20Take%20Sync%20Group/EULA%20-%20Individual%20Take%20Sync%20Group%20EN.pdf</source>
+        <source file="EULA - Individual Take Sync Group PL.pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Individual%20Take%20Sync%20Group/EULA%20-%20Individual%20Take%20Sync%20Group%20PL.pdf</source>
+        <source file="Emelowsky - Individual Take Sync Group (toolbar icon).zip">https://raw.githubusercontent.com/Emelowsky/reapack/main/Individual%20Take%20Sync%20Group/Emelowsky%20-%20Individual%20Take%20Sync%20Group%20%28toolbar%20icon%29.zip</source>
         <source main="main" file="Emelowsky - Individual Take Sync Group.lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Individual%20Take%20Sync%20Group/Emelowsky%20-%20Individual%20Take%20Sync%20Group.lua</source>
+        <source file="Individual Take Sync Group - How to start PLEN.txt">https://raw.githubusercontent.com/Emelowsky/reapack/main/Individual%20Take%20Sync%20Group/Individual%20Take%20Sync%20Group%20-%20How%20to%20start%20PLEN.txt</source>
+        <source file="Individual Take Sync Group - instrukcja obslugi (PL).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Individual%20Take%20Sync%20Group/Individual%20Take%20Sync%20Group%20-%20instrukcja%20obslugi%20%28PL%29.pdf</source>
+        <source file="Individual Take Sync Group - user manual (EN).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Individual%20Take%20Sync%20Group/Individual%20Take%20Sync%20Group%20-%20user%20manual%20%28EN%29.pdf</source>
       </version>
     </reapack>
   </category>
@@ -4393,7 +4433,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="2.2.0" author="Emelowsky" time="2026-10-28T11:39:38Z">
+      <version name="2.2.0" author="Emelowsky" time="2026-10-28T13:22:55Z">
         <changelog><![CDATA[v2.2.0
 - First release on ReaPack
 - Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
@@ -4404,7 +4444,14 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
 - Same look as the whole Emelowsky Plugins family: colors, corner rounding 0-20 px, new default look
 - Backups per project, 6 periodic backups every 30 minutes
 - Runs on REAPER 6 too (separate Lua 5.3 package)]]></changelog>
+        <source file="EULA - Individual Take Sync Group EN.pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Individual%20Take%20Sync%20Group%20%28REAPER%206%2C%20Lua%205.3%29/EULA%20-%20Individual%20Take%20Sync%20Group%20EN.pdf</source>
+        <source file="EULA - Individual Take Sync Group PL.pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Individual%20Take%20Sync%20Group%20%28REAPER%206%2C%20Lua%205.3%29/EULA%20-%20Individual%20Take%20Sync%20Group%20PL.pdf</source>
+        <source file="Emelowsky - Individual Take Sync Group (toolbar icon).zip">https://raw.githubusercontent.com/Emelowsky/reapack/main/Individual%20Take%20Sync%20Group%20%28REAPER%206%2C%20Lua%205.3%29/Emelowsky%20-%20Individual%20Take%20Sync%20Group%20%28toolbar%20icon%29.zip</source>
         <source main="main" file="Emelowsky - Individual Take Sync Group.lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Individual%20Take%20Sync%20Group%20%28REAPER%206%2C%20Lua%205.3%29/Emelowsky%20-%20Individual%20Take%20Sync%20Group.lua</source>
+        <source file="Individual Take Sync Group - How to start PLEN.txt">https://raw.githubusercontent.com/Emelowsky/reapack/main/Individual%20Take%20Sync%20Group%20%28REAPER%206%2C%20Lua%205.3%29/Individual%20Take%20Sync%20Group%20-%20How%20to%20start%20PLEN.txt</source>
+        <source file="Individual Take Sync Group - REAPER 6 (Lua 5.3) PLEN.txt">https://raw.githubusercontent.com/Emelowsky/reapack/main/Individual%20Take%20Sync%20Group%20%28REAPER%206%2C%20Lua%205.3%29/Individual%20Take%20Sync%20Group%20-%20REAPER%206%20%28Lua%205.3%29%20PLEN.txt</source>
+        <source file="Individual Take Sync Group - instrukcja obslugi (PL).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Individual%20Take%20Sync%20Group%20%28REAPER%206%2C%20Lua%205.3%29/Individual%20Take%20Sync%20Group%20-%20instrukcja%20obslugi%20%28PL%29.pdf</source>
+        <source file="Individual Take Sync Group - user manual (EN).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Individual%20Take%20Sync%20Group%20%28REAPER%206%2C%20Lua%205.3%29/Individual%20Take%20Sync%20Group%20-%20user%20manual%20%28EN%29.pdf</source>
       </version>
     </reapack>
   </category>
@@ -4432,7 +4479,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7. For REAPER 6 u
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.0.3" author="Emelowsky" time="2026-10-28T11:39:38Z">
+      <version name="1.0.3" author="Emelowsky" time="2026-10-28T13:22:55Z">
         <changelog><![CDATA[v1.0.3
 - REAPER dialogs (e.g. the question about terminating the script when you run it again on REAPER 6) always stay above the counter and the Marker Tracker windows, also when you click the counter
 
@@ -4448,7 +4495,66 @@ v1.0.1
 - Empty project: the counter shows where the menu is
 - Running the action again closes the counter (toolbar toggle)
 - The script also starts when the REAPER path has non-English letters]]></changelog>
+        <source file="Emelowsky - Marker Tracker (toolbar icon).zip">https://raw.githubusercontent.com/Emelowsky/reapack/main/Marker%20Tracker/Emelowsky%20-%20Marker%20Tracker%20%28toolbar%20icon%29.zip</source>
         <source main="main" file="Emelowsky - Marker Tracker.lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Marker%20Tracker/Emelowsky%20-%20Marker%20Tracker.lua</source>
+        <source file="Marker Tracker - EULA (EN).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Marker%20Tracker/Marker%20Tracker%20-%20EULA%20%28EN%29.pdf</source>
+        <source file="Marker Tracker - EULA (PL).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Marker%20Tracker/Marker%20Tracker%20-%20EULA%20%28PL%29.pdf</source>
+        <source file="Marker Tracker - How to start PLEN.txt">https://raw.githubusercontent.com/Emelowsky/reapack/main/Marker%20Tracker/Marker%20Tracker%20-%20How%20to%20start%20PLEN.txt</source>
+        <source file="Marker Tracker - instrukcja obslugi (PL).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Marker%20Tracker/Marker%20Tracker%20-%20instrukcja%20obslugi%20%28PL%29.pdf</source>
+        <source file="Marker Tracker - user manual (EN).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Marker%20Tracker/Marker%20Tracker%20-%20user%20manual%20%28EN%29.pdf</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Marker Tracker (REAPER 6, Lua 5.3)">
+    <reapack name="Emelowsky - Marker Tracker (REAPER 6, Lua 5.3).lua" type="script" desc="Emelowsky - Marker Tracker (REAPER 6, Lua 5.3)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi
+REAPER 6 (Lua 5.3) version of Marker Tracker. Install it only on REAPER 6 - on REAPER 7 use the main package "Marker Tracker".\par
+\par
+Marker Tracker\par
+A small floating counter over your project: which marker the playhead has just passed ("3 / 7") and its name ("Chorus"). No background, no frame - only the text, so it never covers your work.\par
+Made to find your way between markers and regions at a glance - even when the screen is far away (behind the drum kit, across the live room) and you cannot read the ruler, you see which part of the song is playing.\par
+\par
+- Markers or regions\par
+- Follows the playhead during playback and the edit cursor when stopped\par
+- Lock the position to the screen or to the REAPER window (moves with REAPER to another monitor)\par
+- Your own fonts, colors, sizes and transparency\par
+- Right-click menu for quick toggles, Options window for everything else\par
+- PL / EN / DE / FR / ES\par
+\par
+Free - no license, no limits.\par
+Manuals (PDF, PL + EN) and the toolbar icon: free download on Gumroad: https://emelowsky.gumroad.com/l/marker-tracker\par
+More REAPER scripts from Emelowsky Plugins: https://emelowsky.gumroad.com\par
+Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7. For REAPER 6 use the Lua 5.3 package from Gumroad.
+}]]></description>
+        <link rel="website" href="https://emelowsky.gumroad.com/l/marker-tracker">Free download with manuals (Gumroad)</link>
+        <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
+        <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
+      </metadata>
+      <version name="1.0.3" author="Emelowsky" time="2026-10-28T13:22:55Z">
+        <changelog><![CDATA[v1.0.3
+- REAPER dialogs (e.g. the question about terminating the script when you run it again on REAPER 6) always stay above the counter and the Marker Tracker windows, also when you click the counter
+
+v1.0.2
+- "Always on top" only over REAPER: when you click another program, the counter goes behind its window and comes back on top when you return to REAPER (Windows)
+
+v1.0.1
+- Options in a separate window (right-click the counter > Options): language, tracking mode, window, appearance, About
+- 5 languages: PL / EN / DE / FR / ES
+- Lock position to REAPER window: the counter moves with REAPER, also to another screen (distance scales with the window size), and hides while REAPER is minimized
+- Same look as the whole Emelowsky Plugins family: window colors and rounded corners (Options > Appearance)
+- The counter no longer flickers while you move it; Always on top is on by default
+- Empty project: the counter shows where the menu is
+- Running the action again closes the counter (toolbar toggle)
+- The script also starts when the REAPER path has non-English letters]]></changelog>
+        <source file="Emelowsky - Marker Tracker (toolbar icon).zip">https://raw.githubusercontent.com/Emelowsky/reapack/main/Marker%20Tracker%20%28REAPER%206%2C%20Lua%205.3%29/Emelowsky%20-%20Marker%20Tracker%20%28toolbar%20icon%29.zip</source>
+        <source main="main" file="Emelowsky - Marker Tracker.lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Marker%20Tracker%20%28REAPER%206%2C%20Lua%205.3%29/Emelowsky%20-%20Marker%20Tracker.lua</source>
+        <source file="Marker Tracker - EULA (EN).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Marker%20Tracker%20%28REAPER%206%2C%20Lua%205.3%29/Marker%20Tracker%20-%20EULA%20%28EN%29.pdf</source>
+        <source file="Marker Tracker - EULA (PL).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Marker%20Tracker%20%28REAPER%206%2C%20Lua%205.3%29/Marker%20Tracker%20-%20EULA%20%28PL%29.pdf</source>
+        <source file="Marker Tracker - How to start PLEN.txt">https://raw.githubusercontent.com/Emelowsky/reapack/main/Marker%20Tracker%20%28REAPER%206%2C%20Lua%205.3%29/Marker%20Tracker%20-%20How%20to%20start%20PLEN.txt</source>
+        <source file="Marker Tracker - REAPER 6 (Lua 5.3) PLEN.txt">https://raw.githubusercontent.com/Emelowsky/reapack/main/Marker%20Tracker%20%28REAPER%206%2C%20Lua%205.3%29/Marker%20Tracker%20-%20REAPER%206%20%28Lua%205.3%29%20PLEN.txt</source>
+        <source file="Marker Tracker - instrukcja obslugi (PL).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Marker%20Tracker%20%28REAPER%206%2C%20Lua%205.3%29/Marker%20Tracker%20-%20instrukcja%20obslugi%20%28PL%29.pdf</source>
+        <source file="Marker Tracker - user manual (EN).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Marker%20Tracker%20%28REAPER%206%2C%20Lua%205.3%29/Marker%20Tracker%20-%20user%20manual%20%28EN%29.pdf</source>
       </version>
     </reapack>
   </category>

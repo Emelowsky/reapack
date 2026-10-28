@@ -1,0 +1,41 @@
+Marker Tracker - wersja dla REAPERa 6 (Lua 5.3)
+==============================================
+
+[PL]
+Plik .lua w tym folderze to bytecode Lua 5.3 - działa TYLKO w REAPERze 6.x.
+REAPER 7 ma Lua 5.4 - tam używaj paczki głównej (folder "Lua 5.4 (REAPER 7)")
+albo instalacji przez ReaPack.
+
+Instalacja:
+1. REAPER > Options > Show REAPER resource path... > Scripts > utwórz folder
+   "Marker Tracker" i skopiuj do niego plik .lua z tego folderu.
+2. Wymagane: ReaImGui 0.10 lub nowszy (Extensions > ReaPack > Browse packages > ReaImGui).
+   Opcjonalnie: js_ReaScriptAPI (pewniejsze "Zawsze na wierzchu" i blokada pozycji
+   względem okna REAPERa).
+3. Actions > Show action list > New action > Load ReaScript... >
+   "Emelowsky - Marker Tracker.lua" > Run.
+Ikona paska narzędzi i manual - jak w szybkim starcie ("How to start PLEN.txt").
+
+Coś nie działa w REAPERze 6? Napisz na emelowsky.plugins@gmail.com i dołącz
+wersję REAPERa (Help > About REAPER), wersję ReaImGui i zrzut ekranu okna błędu
+(jeśli się pojawiło) albo "Kopiuj informacje diagnostyczne" z Opcje > O skrypcie.
+
+[EN]
+The .lua file in this folder is Lua 5.3 bytecode - it works ONLY in REAPER 6.x.
+REAPER 7 uses Lua 5.4 - use the main package there (the "Lua 5.4 (REAPER 7)"
+folder) or install with ReaPack.
+
+Installation:
+1. REAPER > Options > Show REAPER resource path... > Scripts > create a folder
+   "Marker Tracker" and copy the .lua file from this folder into it.
+2. Required: ReaImGui 0.10 or newer (Extensions > ReaPack > Browse packages > ReaImGui).
+   Optional: js_ReaScriptAPI (more reliable "Always on top" and the lock to the
+   REAPER window).
+3. Actions > Show action list > New action > Load ReaScript... >
+   "Emelowsky - Marker Tracker.lua" > Run.
+Toolbar icon and manual - see the quick start ("How to start PLEN.txt").
+
+Something not working in REAPER 6? Write to emelowsky.plugins@gmail.com and
+include the REAPER version (Help > About REAPER), the ReaImGui version and a
+screenshot of the error window (if one appeared) or "Copy diagnostic info"
+from Options > About.
