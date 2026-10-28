@@ -1,0 +1,7 @@
+# Pliki pakietów 1:1 jak w Release/ (bez zamiany końców linii)
+*.txt -text
+*.lua -text
+*.pdf binary
+*.zip binary
+*.png binary
+*.gif binary
