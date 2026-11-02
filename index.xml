@@ -4461,7 +4461,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
         <description><![CDATA[{\rtf1\ansi
 Marker Tracker\par
 A small floating counter over your project: which marker the playhead has just passed ("3 / 7") and its name ("Chorus"). No background, no frame - only the text, so it never covers your work.\par
-Made to find your way between markers and regions at a glance - even when the screen is far away (behind the drum kit, across the live room) and you cannot read the ruler, you see which part of the song is playing.\par
+Made for mixing: you jump around the song all the time, and one look tells you where you are - no hunting for tiny marker flags on the ruler.\par
 \par
 - Markers or regions\par
 - Follows the playhead during playback and the edit cursor when stopped\par
@@ -4513,7 +4513,7 @@ REAPER 6 (Lua 5.3) version of Marker Tracker. Install it only on REAPER 6 - on R
 \par
 Marker Tracker\par
 A small floating counter over your project: which marker the playhead has just passed ("3 / 7") and its name ("Chorus"). No background, no frame - only the text, so it never covers your work.\par
-Made to find your way between markers and regions at a glance - even when the screen is far away (behind the drum kit, across the live room) and you cannot read the ruler, you see which part of the song is playing.\par
+Made for mixing: you jump around the song all the time, and one look tells you where you are - no hunting for tiny marker flags on the ruler.\par
 \par
 - Markers or regions\par
 - Follows the playhead during playback and the edit cursor when stopped\par
