@@ -1,0 +1,86 @@
+TRACK DROP FOR REAPER — SZYBKI START / QUICK START
+===================================================
+
+─────────────────────────────────────────
+PL
+─────────────────────────────────────────
+
+REAPER 7: plik z folderu "Lua 5.4 (REAPER 7)". REAPER 6: plik z folderu "Lua 5.3 (REAPER 6)"
+(szczegóły w "Track Drop for REAPER - REAPER 6 (Lua 5.3) PLEN.txt").
+Wymagane: ReaImGui (Extensions → ReaPack → Browse packages → ReaImGui). Opcjonalnie: js_ReaScriptAPI.
+
+INSTALACJA PRZEZ REAPACK (zalecana - aktualizacje przychodzą same)
+   a) Extensions → ReaPack → Import repositories... i wklej adres:
+       https://raw.githubusercontent.com/Emelowsky/reapack/main/index.xml
+   b) Extensions → ReaPack → Browse packages... → wyszukaj "Track Drop" →
+      zaznacz "Emelowsky - Track Drop for REAPER" → Install → Apply.
+   c) UWAGA - INNY FOLDER: ReaPack instaluje do .../REAPER/Scripts/Emelowsky/Track Drop for REAPER/
+      (a nie do .../REAPER/Scripts/Track Drop for REAPER/ jak przy instalacji ręcznej). Wybierz JEDEN sposób
+      instalacji; przy przejściu na ReaPack usuń starą ręczną kopię i jej akcję.
+
+INSTALACJA RĘCZNA
+1. W REAPERze: Options → Show REAPER resource path in explorer/finder.
+2. W folderze "Scripts" utwórz podfolder "Track Drop for REAPER" i skopiuj do niego "Emelowsky - Track Drop for REAPER.lua".
+3. Actions → Show action list → New action... → Load ReaScript... → wskaż ten plik.
+4. Przypisz skrót (Actions → wybierz skrypt → Add...). WAŻNE: Scope "Global + text fields",
+   nie samo "Global" - inaczej skrót nie zadziała, gdy kursor jest w polu wyszukiwania.
+5. (Opcjonalnie) Ikona na pasek: rozpakuj "Emelowsky - Track Drop for REAPER (toolbar icon).zip" do folderu zasobów
+   REAPERa, potem Customize toolbar → Add → akcja → Icon... → "Emelowsky - Track Drop for REAPER".
+
+UŻYCIE
+   a) Zaznacz ślady w REAPERze.
+   b) Kliknij folder na liście - ślady trafią na jego koniec.
+   c) Kliknij zwykły ślad - stanie się folderem z zaznaczonymi śladami w środku.
+   d) Enter = jeszcze raz do ostatniego celu, Ctrl+F = pole wyszukiwania, Ctrl+Z = cofnij.
+
+DEMO I LICENCJA
+   Bez licencji Track Drop działa od razu jako DEMO, bez limitu czasu: najwyżej 3 ślady w jednym
+   przeniesieniu. Aktywacja: "Mam klucz - aktywuj" → skopiuj Machine ID → panel klienta
+   https://plugins.emelowsky.com (zaloguj się e-mailem z zakupu i kluczem licencyjnym z Gumroad) →
+   odbierz klucz produktu → wklej go w oknie aktywacji razem z e-mailem → Aktywuj.
+   W polu klucza wklej KLUCZ PRODUKTU z panelu klienta, nie klucz z Gumroad.
+   Przy pierwszym uruchomieniu okno jest po angielsku - język zmienisz w Opcjach.
+
+Manual (PDF), EULA, kontakt: emelowsky.plugins@gmail.com · https://emelowsky.com/plugins/
+
+─────────────────────────────────────────
+EN
+─────────────────────────────────────────
+
+REAPER 7: the file from the "Lua 5.4 (REAPER 7)" folder. REAPER 6: the file from the "Lua 5.3 (REAPER 6)"
+folder (details in "Track Drop for REAPER - REAPER 6 (Lua 5.3) PLEN.txt").
+Required: ReaImGui (Extensions → ReaPack → Browse packages → ReaImGui). Optional: js_ReaScriptAPI.
+
+INSTALLING WITH REAPACK (recommended - updates arrive on their own)
+   a) Extensions → ReaPack → Import repositories... and paste:
+       https://raw.githubusercontent.com/Emelowsky/reapack/main/index.xml
+   b) Extensions → ReaPack → Browse packages... → search for "Track Drop" →
+      tick "Emelowsky - Track Drop for REAPER" → Install → Apply.
+   c) NOTE - DIFFERENT FOLDER: ReaPack installs into .../REAPER/Scripts/Emelowsky/Track Drop for REAPER/
+      (not .../REAPER/Scripts/Track Drop for REAPER/ as a manual install). Pick ONE way to install; when you
+      switch to ReaPack, delete the old manual copy and its action.
+
+MANUAL INSTALLATION
+1. In REAPER: Options → Show REAPER resource path in explorer/finder.
+2. In the "Scripts" folder create a subfolder "Track Drop for REAPER" and copy "Emelowsky - Track Drop for REAPER.lua" into it.
+3. Actions → Show action list → New action... → Load ReaScript... → pick that file.
+4. Assign a shortcut (Actions → select the script → Add...). IMPORTANT: Scope "Global + text fields",
+   not just "Global" - otherwise the shortcut won't work while the cursor is in the search field.
+5. (Optional) Toolbar icon: unzip "Emelowsky - Track Drop for REAPER (toolbar icon).zip" into REAPER's resource folder,
+   then Customize toolbar → Add → the action → Icon... → "Emelowsky - Track Drop for REAPER".
+
+USING IT
+   a) Select tracks in REAPER.
+   b) Click a folder in the list - the tracks go to its end.
+   c) Click a normal track - it becomes a folder with the selected tracks inside.
+   d) Enter = again to the last target, Ctrl+F = search field, Ctrl+Z = undo.
+
+DEMO AND LICENSE
+   Without a license Track Drop runs right away as a DEMO, no time limit: at most 3 tracks per move.
+   Activation: "I have a key - activate" → copy the Machine ID → customer panel
+   https://plugins.emelowsky.com (log in with your purchase e-mail and the Gumroad license key) →
+   get the product key → paste it in the activation window together with your e-mail → Activate.
+   Paste the PRODUCT KEY from the customer panel into the key field, not the Gumroad key.
+   On the first run the window is in English - change the language in Options.
+
+Manual (PDF), EULA, contact: emelowsky.plugins@gmail.com · https://emelowsky.com/plugins/

@@ -39,7 +39,7 @@ Manuals and toolbar icon: in the Gumroad download.
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.7.93" author="Emelowsky" time="2026-10-28T13:22:55Z">
+      <version name="3.7.93" author="Emelowsky" time="2026-11-04T06:05:03Z">
         <changelog><![CDATA[v3.7.93
 - REAPER dialogs (e.g. the question about terminating the script when you run it again on REAPER 6) always stay above the Plugin Shelf windows, also when you click a Plugin Shelf window and with "Always on top" on or off
 
@@ -81,7 +81,7 @@ All products: https://emelowsky.gumroad.com
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.0" author="Emelowsky" time="2026-10-28T13:22:55Z">
+      <version name="1.0" author="Emelowsky" time="2026-11-04T06:05:03Z">
         <changelog><![CDATA[v1.0
 Icon pack for Plugin Shelf for REAPER: 4125 plugin icons.]]></changelog>
         <source file="EmelowskyFX - AIR CHORUS.png">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/icons/EmelowskyFX%20-%20AIR%20CHORUS.png</source>
@@ -4239,7 +4239,7 @@ Manuals and toolbar icon: in the Gumroad download.
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.7.93" author="Emelowsky" time="2026-10-28T13:22:55Z">
+      <version name="3.7.93" author="Emelowsky" time="2026-11-04T06:05:03Z">
         <changelog><![CDATA[v3.7.93
 - REAPER dialogs (e.g. the question about terminating the script when you run it again on REAPER 6) always stay above the Plugin Shelf windows, also when you click a Plugin Shelf window and with "Always on top" on or off
 
@@ -4292,7 +4292,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.12" author="Emelowsky" time="2026-10-28T13:22:55Z">
+      <version name="3.12" author="Emelowsky" time="2026-11-04T06:05:03Z">
         <changelog><![CDATA[v3.12
 - First release on ReaPack
 - Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
@@ -4339,7 +4339,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.12" author="Emelowsky" time="2026-10-28T13:22:55Z">
+      <version name="3.12" author="Emelowsky" time="2026-11-04T06:05:03Z">
         <changelog><![CDATA[v3.12
 - First release on ReaPack
 - Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
@@ -4386,7 +4386,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="2.2.0" author="Emelowsky" time="2026-10-28T13:22:55Z">
+      <version name="2.2.0" author="Emelowsky" time="2026-11-04T06:05:03Z">
         <changelog><![CDATA[v2.2.0
 - First release on ReaPack
 - Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
@@ -4433,7 +4433,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="2.2.0" author="Emelowsky" time="2026-10-28T13:22:55Z">
+      <version name="2.2.0" author="Emelowsky" time="2026-11-04T06:05:03Z">
         <changelog><![CDATA[v2.2.0
 - First release on ReaPack
 - Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
@@ -4479,7 +4479,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7. For REAPER 6 u
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.0.3" author="Emelowsky" time="2026-10-28T13:22:55Z">
+      <version name="1.0.3" author="Emelowsky" time="2026-11-04T06:05:03Z">
         <changelog><![CDATA[v1.0.3
 - REAPER dialogs (e.g. the question about terminating the script when you run it again on REAPER 6) always stay above the counter and the Marker Tracker windows, also when you click the counter
 
@@ -4531,7 +4531,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7. For REAPER 6 u
         <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.0.3" author="Emelowsky" time="2026-10-28T13:22:55Z">
+      <version name="1.0.3" author="Emelowsky" time="2026-11-04T06:05:03Z">
         <changelog><![CDATA[v1.0.3
 - REAPER dialogs (e.g. the question about terminating the script when you run it again on REAPER 6) always stay above the counter and the Marker Tracker windows, also when you click the counter
 
@@ -4555,6 +4555,188 @@ v1.0.1
         <source file="Marker Tracker - REAPER 6 (Lua 5.3) PLEN.txt">https://raw.githubusercontent.com/Emelowsky/reapack/main/Marker%20Tracker%20%28REAPER%206%2C%20Lua%205.3%29/Marker%20Tracker%20-%20REAPER%206%20%28Lua%205.3%29%20PLEN.txt</source>
         <source file="Marker Tracker - instrukcja obslugi (PL).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Marker%20Tracker%20%28REAPER%206%2C%20Lua%205.3%29/Marker%20Tracker%20-%20instrukcja%20obslugi%20%28PL%29.pdf</source>
         <source file="Marker Tracker - user manual (EN).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Marker%20Tracker%20%28REAPER%206%2C%20Lua%205.3%29/Marker%20Tracker%20-%20user%20manual%20%28EN%29.pdf</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Track Drop for REAPER">
+    <reapack name="Emelowsky - Track Drop for REAPER.lua" type="script" desc="Emelowsky - Track Drop for REAPER">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi
+Track Drop\par
+Got your own mix template? Drop the delivered tracks exactly where you want them - without ruining the layout of your session.\par
+Select tracks in REAPER, click a folder in the Track Drop list and they go to its end. Click a normal track and it becomes a folder with the selected tracks inside. Folders move with everything in them; the rest of the project stays untouched.\par
+\par
+- One click per move, one Undo step\par
+- Track list with folder indent and track colors, search by word fragments in any order\par
+- Enter moves the next selection to the last target again\par
+- Works up and down the folder tree, several tracks from different places at once\par
+- PL / EN / DE / FR / ES\par
+- Sister script: Item Drop moves items onto another track\par
+\par
+Free DEMO with no time limit (3 tracks per move); a license key from Gumroad unlocks the full version in the same file.\par
+Shop, manuals (PDF, PL + EN) and the toolbar icon: https://emelowsky.gumroad.com/l/track-drop\par
+All Emelowsky Plugins scripts: https://emelowsky.com/plugins/\par
+Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Track Drop for REAPER (REAPER 6, Lua 5.3)" package.
+}]]></description>
+        <link rel="website" href="https://emelowsky.gumroad.com/l/track-drop">Buy Track Drop (free demo + Full license)</link>
+        <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
+        <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
+      </metadata>
+      <version name="1.1.0" author="Emelowsky" time="2026-11-04T06:05:03Z">
+        <changelog><![CDATA[v1.1.0
+- New name: Track Drop for REAPER (formerly Move track to folder) - your settings stay
+- First release on ReaPack
+- One file: runs as a free DEMO (3 tracks per move), a license key unlocks the full version
+- Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
+- Moving down the tree and moving folders with their content fixed
+- Options in a separate window, 5 languages, the look of the Emelowsky Plugins family
+- Search by word fragments in any order
+- "Always on top" only over REAPER; dock the window by dragging it with Shift held
+- Runs on REAPER 6 too (separate Lua 5.3 package)]]></changelog>
+        <source file="EULA - Track Drop for REAPER EN.pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Track%20Drop%20for%20REAPER/EULA%20-%20Track%20Drop%20for%20REAPER%20EN.pdf</source>
+        <source file="EULA - Track Drop for REAPER PL.pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Track%20Drop%20for%20REAPER/EULA%20-%20Track%20Drop%20for%20REAPER%20PL.pdf</source>
+        <source file="Emelowsky - Track Drop for REAPER (toolbar icon).zip">https://raw.githubusercontent.com/Emelowsky/reapack/main/Track%20Drop%20for%20REAPER/Emelowsky%20-%20Track%20Drop%20for%20REAPER%20%28toolbar%20icon%29.zip</source>
+        <source main="main" file="Emelowsky - Track Drop for REAPER.lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Track%20Drop%20for%20REAPER/Emelowsky%20-%20Track%20Drop%20for%20REAPER.lua</source>
+        <source file="Track Drop for REAPER - How to start PLEN.txt">https://raw.githubusercontent.com/Emelowsky/reapack/main/Track%20Drop%20for%20REAPER/Track%20Drop%20for%20REAPER%20-%20How%20to%20start%20PLEN.txt</source>
+        <source file="Track Drop for REAPER - Manual (EN).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Track%20Drop%20for%20REAPER/Track%20Drop%20for%20REAPER%20-%20Manual%20%28EN%29.pdf</source>
+        <source file="Track Drop for REAPER - Manual (PL).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Track%20Drop%20for%20REAPER/Track%20Drop%20for%20REAPER%20-%20Manual%20%28PL%29.pdf</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Track Drop for REAPER (REAPER 6, Lua 5.3)">
+    <reapack name="Emelowsky - Track Drop for REAPER (REAPER 6, Lua 5.3).lua" type="script" desc="Emelowsky - Track Drop for REAPER (REAPER 6, Lua 5.3)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi
+REAPER 6 (Lua 5.3) version of Track Drop for REAPER. Install it only on REAPER 6 - on REAPER 7 use the main package "Track Drop for REAPER".\par
+\par
+Track Drop\par
+Got your own mix template? Drop the delivered tracks exactly where you want them - without ruining the layout of your session.\par
+Select tracks in REAPER, click a folder in the Track Drop list and they go to its end. Click a normal track and it becomes a folder with the selected tracks inside. Folders move with everything in them; the rest of the project stays untouched.\par
+\par
+- One click per move, one Undo step\par
+- Track list with folder indent and track colors, search by word fragments in any order\par
+- Enter moves the next selection to the last target again\par
+- Works up and down the folder tree, several tracks from different places at once\par
+- PL / EN / DE / FR / ES\par
+- Sister script: Item Drop moves items onto another track\par
+\par
+Free DEMO with no time limit (3 tracks per move); a license key from Gumroad unlocks the full version in the same file.\par
+Shop, manuals (PDF, PL + EN) and the toolbar icon: https://emelowsky.gumroad.com/l/track-drop\par
+All Emelowsky Plugins scripts: https://emelowsky.com/plugins/\par
+Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Track Drop for REAPER (REAPER 6, Lua 5.3)" package.
+}]]></description>
+        <link rel="website" href="https://emelowsky.gumroad.com/l/track-drop">Buy Track Drop (free demo + Full license)</link>
+        <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
+        <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
+      </metadata>
+      <version name="1.1.0" author="Emelowsky" time="2026-11-04T06:05:03Z">
+        <changelog><![CDATA[v1.1.0
+- New name: Track Drop for REAPER (formerly Move track to folder) - your settings stay
+- First release on ReaPack
+- One file: runs as a free DEMO (3 tracks per move), a license key unlocks the full version
+- Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
+- Moving down the tree and moving folders with their content fixed
+- Options in a separate window, 5 languages, the look of the Emelowsky Plugins family
+- Search by word fragments in any order
+- "Always on top" only over REAPER; dock the window by dragging it with Shift held
+- Runs on REAPER 6 too (separate Lua 5.3 package)]]></changelog>
+        <source file="EULA - Track Drop for REAPER EN.pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Track%20Drop%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/EULA%20-%20Track%20Drop%20for%20REAPER%20EN.pdf</source>
+        <source file="EULA - Track Drop for REAPER PL.pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Track%20Drop%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/EULA%20-%20Track%20Drop%20for%20REAPER%20PL.pdf</source>
+        <source file="Emelowsky - Track Drop for REAPER (toolbar icon).zip">https://raw.githubusercontent.com/Emelowsky/reapack/main/Track%20Drop%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Emelowsky%20-%20Track%20Drop%20for%20REAPER%20%28toolbar%20icon%29.zip</source>
+        <source main="main" file="Emelowsky - Track Drop for REAPER.lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Track%20Drop%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Emelowsky%20-%20Track%20Drop%20for%20REAPER.lua</source>
+        <source file="Track Drop for REAPER - How to start PLEN.txt">https://raw.githubusercontent.com/Emelowsky/reapack/main/Track%20Drop%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Track%20Drop%20for%20REAPER%20-%20How%20to%20start%20PLEN.txt</source>
+        <source file="Track Drop for REAPER - Manual (EN).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Track%20Drop%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Track%20Drop%20for%20REAPER%20-%20Manual%20%28EN%29.pdf</source>
+        <source file="Track Drop for REAPER - Manual (PL).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Track%20Drop%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Track%20Drop%20for%20REAPER%20-%20Manual%20%28PL%29.pdf</source>
+        <source file="Track Drop for REAPER - REAPER 6 (Lua 5.3) PLEN.txt">https://raw.githubusercontent.com/Emelowsky/reapack/main/Track%20Drop%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Track%20Drop%20for%20REAPER%20-%20REAPER%206%20%28Lua%205.3%29%20PLEN.txt</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Item Drop for REAPER">
+    <reapack name="Emelowsky - Item Drop for REAPER.lua" type="script" desc="Emelowsky - Item Drop for REAPER">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi
+Item Drop\par
+Got your own mix template? Drop the delivered material onto your template tracks - without ruining the layout of your session.\par
+Select items in REAPER, click a track in the Item Drop list and the items move to that track. Position, length and all takes stay - only the track changes. The source tracks keep their order and folders.\par
+\par
+- One click per move, one Undo step\par
+- Track list with folder indent and track colors; empty tracks are easy to spot\par
+- Search by word fragments in any order; Enter moves the next selection to the last target again\par
+- PL / EN / DE / FR / ES\par
+- Sister script: Track Drop moves whole tracks into folders\par
+\par
+Free DEMO with no time limit (3 items per move); a license key from Gumroad unlocks the full version in the same file.\par
+Shop, manuals (PDF, PL + EN) and the toolbar icon: https://emelowsky.gumroad.com/l/item-drop\par
+All Emelowsky Plugins scripts: https://emelowsky.com/plugins/\par
+Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Item Drop for REAPER (REAPER 6, Lua 5.3)" package.
+}]]></description>
+        <link rel="website" href="https://emelowsky.gumroad.com/l/item-drop">Buy Item Drop (free demo + Full license)</link>
+        <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
+        <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
+      </metadata>
+      <version name="1.1.0" author="Emelowsky" time="2026-11-04T06:05:03Z">
+        <changelog><![CDATA[v1.1.0
+- New name: Item Drop for REAPER (formerly Move item from track to another track) - your settings stay
+- First release on ReaPack
+- One file: runs as a free DEMO (3 items per move), a license key unlocks the full version
+- Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
+- Options in a separate window, 5 languages, the look of the Emelowsky Plugins family
+- Search by word fragments in any order; empty tracks marked in the list
+- "Always on top" only over REAPER; dock the window by dragging it with Shift held
+- Runs on REAPER 6 too (separate Lua 5.3 package)]]></changelog>
+        <source file="EULA - Item Drop for REAPER EN.pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Item%20Drop%20for%20REAPER/EULA%20-%20Item%20Drop%20for%20REAPER%20EN.pdf</source>
+        <source file="EULA - Item Drop for REAPER PL.pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Item%20Drop%20for%20REAPER/EULA%20-%20Item%20Drop%20for%20REAPER%20PL.pdf</source>
+        <source file="Emelowsky - Item Drop for REAPER (toolbar icon).zip">https://raw.githubusercontent.com/Emelowsky/reapack/main/Item%20Drop%20for%20REAPER/Emelowsky%20-%20Item%20Drop%20for%20REAPER%20%28toolbar%20icon%29.zip</source>
+        <source main="main" file="Emelowsky - Item Drop for REAPER.lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Item%20Drop%20for%20REAPER/Emelowsky%20-%20Item%20Drop%20for%20REAPER.lua</source>
+        <source file="Item Drop for REAPER - How to start PLEN.txt">https://raw.githubusercontent.com/Emelowsky/reapack/main/Item%20Drop%20for%20REAPER/Item%20Drop%20for%20REAPER%20-%20How%20to%20start%20PLEN.txt</source>
+        <source file="Item Drop for REAPER - Manual (EN).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Item%20Drop%20for%20REAPER/Item%20Drop%20for%20REAPER%20-%20Manual%20%28EN%29.pdf</source>
+        <source file="Item Drop for REAPER - Manual (PL).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Item%20Drop%20for%20REAPER/Item%20Drop%20for%20REAPER%20-%20Manual%20%28PL%29.pdf</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Item Drop for REAPER (REAPER 6, Lua 5.3)">
+    <reapack name="Emelowsky - Item Drop for REAPER (REAPER 6, Lua 5.3).lua" type="script" desc="Emelowsky - Item Drop for REAPER (REAPER 6, Lua 5.3)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi
+REAPER 6 (Lua 5.3) version of Item Drop for REAPER. Install it only on REAPER 6 - on REAPER 7 use the main package "Item Drop for REAPER".\par
+\par
+Item Drop\par
+Got your own mix template? Drop the delivered material onto your template tracks - without ruining the layout of your session.\par
+Select items in REAPER, click a track in the Item Drop list and the items move to that track. Position, length and all takes stay - only the track changes. The source tracks keep their order and folders.\par
+\par
+- One click per move, one Undo step\par
+- Track list with folder indent and track colors; empty tracks are easy to spot\par
+- Search by word fragments in any order; Enter moves the next selection to the last target again\par
+- PL / EN / DE / FR / ES\par
+- Sister script: Track Drop moves whole tracks into folders\par
+\par
+Free DEMO with no time limit (3 items per move); a license key from Gumroad unlocks the full version in the same file.\par
+Shop, manuals (PDF, PL + EN) and the toolbar icon: https://emelowsky.gumroad.com/l/item-drop\par
+All Emelowsky Plugins scripts: https://emelowsky.com/plugins/\par
+Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Item Drop for REAPER (REAPER 6, Lua 5.3)" package.
+}]]></description>
+        <link rel="website" href="https://emelowsky.gumroad.com/l/item-drop">Buy Item Drop (free demo + Full license)</link>
+        <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
+        <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
+      </metadata>
+      <version name="1.1.0" author="Emelowsky" time="2026-11-04T06:05:03Z">
+        <changelog><![CDATA[v1.1.0
+- New name: Item Drop for REAPER (formerly Move item from track to another track) - your settings stay
+- First release on ReaPack
+- One file: runs as a free DEMO (3 items per move), a license key unlocks the full version
+- Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
+- Options in a separate window, 5 languages, the look of the Emelowsky Plugins family
+- Search by word fragments in any order; empty tracks marked in the list
+- "Always on top" only over REAPER; dock the window by dragging it with Shift held
+- Runs on REAPER 6 too (separate Lua 5.3 package)]]></changelog>
+        <source file="EULA - Item Drop for REAPER EN.pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Item%20Drop%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/EULA%20-%20Item%20Drop%20for%20REAPER%20EN.pdf</source>
+        <source file="EULA - Item Drop for REAPER PL.pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Item%20Drop%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/EULA%20-%20Item%20Drop%20for%20REAPER%20PL.pdf</source>
+        <source file="Emelowsky - Item Drop for REAPER (toolbar icon).zip">https://raw.githubusercontent.com/Emelowsky/reapack/main/Item%20Drop%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Emelowsky%20-%20Item%20Drop%20for%20REAPER%20%28toolbar%20icon%29.zip</source>
+        <source main="main" file="Emelowsky - Item Drop for REAPER.lua">https://raw.githubusercontent.com/Emelowsky/reapack/main/Item%20Drop%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Emelowsky%20-%20Item%20Drop%20for%20REAPER.lua</source>
+        <source file="Item Drop for REAPER - How to start PLEN.txt">https://raw.githubusercontent.com/Emelowsky/reapack/main/Item%20Drop%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Item%20Drop%20for%20REAPER%20-%20How%20to%20start%20PLEN.txt</source>
+        <source file="Item Drop for REAPER - Manual (EN).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Item%20Drop%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Item%20Drop%20for%20REAPER%20-%20Manual%20%28EN%29.pdf</source>
+        <source file="Item Drop for REAPER - Manual (PL).pdf">https://raw.githubusercontent.com/Emelowsky/reapack/main/Item%20Drop%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Item%20Drop%20for%20REAPER%20-%20Manual%20%28PL%29.pdf</source>
+        <source file="Item Drop for REAPER - REAPER 6 (Lua 5.3) PLEN.txt">https://raw.githubusercontent.com/Emelowsky/reapack/main/Item%20Drop%20for%20REAPER%20%28REAPER%206%2C%20Lua%205.3%29/Item%20Drop%20for%20REAPER%20-%20REAPER%206%20%28Lua%205.3%29%20PLEN.txt</source>
       </version>
     </reapack>
   </category>
