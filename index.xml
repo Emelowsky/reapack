@@ -5,7 +5,8 @@
 Emelowsky Plugins - REAPER scripts\par
 Paid scripts run as a free DEMO with no time limit; a license key from Gumroad unlocks the full version in the same file. Free scripts are free for good - no license, no limits.\par
 \par
-Shop (all products): https://emelowsky.gumroad.com\par
+All scripts, manuals and videos: https://emelowsky.com/plugins/\par
+Shop: https://emelowsky.gumroad.com\par
 Tutorials: https://www.youtube.com/@EmelowskyPlugins\par
 Contact: emelowsky.plugins@gmail.com
 }]]></description>
@@ -30,16 +31,16 @@ A visual plugin browser: your plugins and FX chains as thumbnails on a shelf, so
 \par
 Runs as a free DEMO with no time limit (4 categories, 5 plugins each).\par
 Buy the Full license on Gumroad: https://emelowsky.gumroad.com/l/plugin-shelf - the key unlocks this same script, nothing to reinstall.\par
-More REAPER scripts from Emelowsky Plugins: https://emelowsky.gumroad.com\par
+All Emelowsky Plugins scripts, manuals and videos: https://emelowsky.com/plugins/\par
 Requires ReaImGui (ReaPack). REAPER 7. For REAPER 6 use the Lua 5.3 package from the shop.\par
 Icons: also install "Emelowsky - Plugin Shelf for REAPER (icon pack)" from this repository (4000+ plugin icons, downloaded once).\par
 Manuals and toolbar icon: in the Gumroad download.
 }]]></description>
         <link rel="website" href="https://emelowsky.gumroad.com/l/plugin-shelf">Buy Plugin Shelf (free demo + Full license)</link>
-        <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
+        <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.7.93" author="Emelowsky" time="2026-11-04T06:05:03Z">
+      <version name="3.7.93" author="Emelowsky" time="2026-11-04T20:49:08Z">
         <changelog><![CDATA[v3.7.93
 - REAPER dialogs (e.g. the question about terminating the script when you run it again on REAPER 6) always stay above the Plugin Shelf windows, also when you click a Plugin Shelf window and with "Always on top" on or off
 
@@ -78,10 +79,10 @@ Plugin Shelf Full license: https://emelowsky.gumroad.com/l/plugin-shelf\par
 All products: https://emelowsky.gumroad.com
 }]]></description>
         <link rel="website" href="https://emelowsky.gumroad.com/l/plugin-shelf">Buy Plugin Shelf (free demo + Full license)</link>
-        <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
+        <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.0" author="Emelowsky" time="2026-11-04T06:05:03Z">
+      <version name="1.0" author="Emelowsky" time="2026-11-04T20:49:08Z">
         <changelog><![CDATA[v1.0
 Icon pack for Plugin Shelf for REAPER: 4125 plugin icons.]]></changelog>
         <source file="EmelowskyFX - AIR CHORUS.png">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/icons/EmelowskyFX%20-%20AIR%20CHORUS.png</source>
@@ -4230,16 +4231,16 @@ A visual plugin browser: your plugins and FX chains as thumbnails on a shelf, so
 \par
 Runs as a free DEMO with no time limit (4 categories, 5 plugins each).\par
 Buy the Full license on Gumroad: https://emelowsky.gumroad.com/l/plugin-shelf - the key unlocks this same script, nothing to reinstall.\par
-More REAPER scripts from Emelowsky Plugins: https://emelowsky.gumroad.com\par
+All Emelowsky Plugins scripts, manuals and videos: https://emelowsky.com/plugins/\par
 Requires ReaImGui (ReaPack). REAPER 7. For REAPER 6 use the Lua 5.3 package from the shop.\par
 Icons: also install "Emelowsky - Plugin Shelf for REAPER (icon pack)" from this repository (4000+ plugin icons, downloaded once).\par
 Manuals and toolbar icon: in the Gumroad download.
 }]]></description>
         <link rel="website" href="https://emelowsky.gumroad.com/l/plugin-shelf">Buy Plugin Shelf (free demo + Full license)</link>
-        <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
+        <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.7.93" author="Emelowsky" time="2026-11-04T06:05:03Z">
+      <version name="3.7.93" author="Emelowsky" time="2026-11-04T20:49:08Z">
         <changelog><![CDATA[v3.7.93
 - REAPER dialogs (e.g. the question about terminating the script when you run it again on REAPER 6) always stay above the Plugin Shelf windows, also when you click a Plugin Shelf window and with "Always on top" on or off
 
@@ -4285,14 +4286,14 @@ Group tracks without losing your mix. REAPER's native grouping moves linked fade
 \par
 Free DEMO with no time limit (2 active groups); a license key from Gumroad unlocks the full version in the same files.\par
 Shop, manuals (PDF, PL + EN) and the toolbar icon: https://emelowsky.gumroad.com/l/fast-group\par
-More REAPER scripts from Emelowsky Plugins: https://emelowsky.gumroad.com\par
+All Emelowsky Plugins scripts, manuals and videos: https://emelowsky.com/plugins/\par
 Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Fast Group (REAPER 6, Lua 5.3)" package.
 }]]></description>
         <link rel="website" href="https://emelowsky.gumroad.com/l/fast-group">Buy Fast Group (free demo + Full license)</link>
-        <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
+        <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.12" author="Emelowsky" time="2026-11-04T06:05:03Z">
+      <version name="3.12" author="Emelowsky" time="2026-11-04T20:49:08Z">
         <changelog><![CDATA[v3.12
 - First release on ReaPack
 - Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
@@ -4332,14 +4333,14 @@ Group tracks without losing your mix. REAPER's native grouping moves linked fade
 \par
 Free DEMO with no time limit (2 active groups); a license key from Gumroad unlocks the full version in the same files.\par
 Shop, manuals (PDF, PL + EN) and the toolbar icon: https://emelowsky.gumroad.com/l/fast-group\par
-More REAPER scripts from Emelowsky Plugins: https://emelowsky.gumroad.com\par
+All Emelowsky Plugins scripts, manuals and videos: https://emelowsky.com/plugins/\par
 Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Fast Group (REAPER 6, Lua 5.3)" package.
 }]]></description>
         <link rel="website" href="https://emelowsky.gumroad.com/l/fast-group">Buy Fast Group (free demo + Full license)</link>
-        <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
+        <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.12" author="Emelowsky" time="2026-11-04T06:05:03Z">
+      <version name="3.12" author="Emelowsky" time="2026-11-04T20:49:08Z">
         <changelog><![CDATA[v3.12
 - First release on ReaPack
 - Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
@@ -4379,14 +4380,14 @@ Keep multitrack takes in sync while you edit. Link items (e.g. the same performa
 \par
 Free DEMO with no time limit (2 groups with 6 tracks/items each); a license key from Gumroad unlocks the full version in the same file.\par
 Shop, manuals (PDF, PL + EN) and the toolbar icon: https://emelowsky.gumroad.com/l/individual-take-sync-group\par
-More REAPER scripts from Emelowsky Plugins: https://emelowsky.gumroad.com\par
+All Emelowsky Plugins scripts, manuals and videos: https://emelowsky.com/plugins/\par
 Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Individual Take Sync Group (REAPER 6, Lua 5.3)" package.
 }]]></description>
         <link rel="website" href="https://emelowsky.gumroad.com/l/individual-take-sync-group">Buy Individual Take Sync Group (free demo + Full license)</link>
-        <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
+        <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="2.2.0" author="Emelowsky" time="2026-11-04T06:05:03Z">
+      <version name="2.2.0" author="Emelowsky" time="2026-11-04T20:49:08Z">
         <changelog><![CDATA[v2.2.0
 - First release on ReaPack
 - Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
@@ -4426,14 +4427,14 @@ Keep multitrack takes in sync while you edit. Link items (e.g. the same performa
 \par
 Free DEMO with no time limit (2 groups with 6 tracks/items each); a license key from Gumroad unlocks the full version in the same file.\par
 Shop, manuals (PDF, PL + EN) and the toolbar icon: https://emelowsky.gumroad.com/l/individual-take-sync-group\par
-More REAPER scripts from Emelowsky Plugins: https://emelowsky.gumroad.com\par
+All Emelowsky Plugins scripts, manuals and videos: https://emelowsky.com/plugins/\par
 Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Individual Take Sync Group (REAPER 6, Lua 5.3)" package.
 }]]></description>
         <link rel="website" href="https://emelowsky.gumroad.com/l/individual-take-sync-group">Buy Individual Take Sync Group (free demo + Full license)</link>
-        <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
+        <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="2.2.0" author="Emelowsky" time="2026-11-04T06:05:03Z">
+      <version name="2.2.0" author="Emelowsky" time="2026-11-04T20:49:08Z">
         <changelog><![CDATA[v2.2.0
 - First release on ReaPack
 - Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
@@ -4472,14 +4473,14 @@ Made for mixing: you jump around the song all the time, and one look tells you w
 \par
 Free - no license, no limits.\par
 Manuals (PDF, PL + EN) and the toolbar icon: free download on Gumroad: https://emelowsky.gumroad.com/l/marker-tracker\par
-More REAPER scripts from Emelowsky Plugins: https://emelowsky.gumroad.com\par
+All Emelowsky Plugins scripts, manuals and videos: https://emelowsky.com/plugins/\par
 Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7. For REAPER 6 use the Lua 5.3 package from Gumroad.
 }]]></description>
         <link rel="website" href="https://emelowsky.gumroad.com/l/marker-tracker">Free download with manuals (Gumroad)</link>
-        <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
+        <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.0.3" author="Emelowsky" time="2026-11-04T06:05:03Z">
+      <version name="1.0.3" author="Emelowsky" time="2026-11-04T20:49:08Z">
         <changelog><![CDATA[v1.0.3
 - REAPER dialogs (e.g. the question about terminating the script when you run it again on REAPER 6) always stay above the counter and the Marker Tracker windows, also when you click the counter
 
@@ -4524,14 +4525,14 @@ Made for mixing: you jump around the song all the time, and one look tells you w
 \par
 Free - no license, no limits.\par
 Manuals (PDF, PL + EN) and the toolbar icon: free download on Gumroad: https://emelowsky.gumroad.com/l/marker-tracker\par
-More REAPER scripts from Emelowsky Plugins: https://emelowsky.gumroad.com\par
+All Emelowsky Plugins scripts, manuals and videos: https://emelowsky.com/plugins/\par
 Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7. For REAPER 6 use the Lua 5.3 package from Gumroad.
 }]]></description>
         <link rel="website" href="https://emelowsky.gumroad.com/l/marker-tracker">Free download with manuals (Gumroad)</link>
-        <link rel="website" href="https://emelowsky.gumroad.com">All Emelowsky Plugins products</link>
+        <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.0.3" author="Emelowsky" time="2026-11-04T06:05:03Z">
+      <version name="1.0.3" author="Emelowsky" time="2026-11-04T20:49:08Z">
         <changelog><![CDATA[v1.0.3
 - REAPER dialogs (e.g. the question about terminating the script when you run it again on REAPER 6) always stay above the counter and the Marker Tracker windows, also when you click the counter
 
@@ -4582,7 +4583,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.1.0" author="Emelowsky" time="2026-11-04T06:05:03Z">
+      <version name="1.1.0" author="Emelowsky" time="2026-11-04T20:49:08Z">
         <changelog><![CDATA[v1.1.0
 - New name: Track Drop for REAPER (formerly Move track to folder) - your settings stay
 - First release on ReaPack
@@ -4629,7 +4630,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.1.0" author="Emelowsky" time="2026-11-04T06:05:03Z">
+      <version name="1.1.0" author="Emelowsky" time="2026-11-04T20:49:08Z">
         <changelog><![CDATA[v1.1.0
 - New name: Track Drop for REAPER (formerly Move track to folder) - your settings stay
 - First release on ReaPack
@@ -4674,7 +4675,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.1.0" author="Emelowsky" time="2026-11-04T06:05:03Z">
+      <version name="1.1.0" author="Emelowsky" time="2026-11-04T20:49:08Z">
         <changelog><![CDATA[v1.1.0
 - New name: Item Drop for REAPER (formerly Move item from track to another track) - your settings stay
 - First release on ReaPack
@@ -4719,7 +4720,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.1.0" author="Emelowsky" time="2026-11-04T06:05:03Z">
+      <version name="1.1.0" author="Emelowsky" time="2026-11-04T20:49:08Z">
         <changelog><![CDATA[v1.1.0
 - New name: Item Drop for REAPER (formerly Move item from track to another track) - your settings stay
 - First release on ReaPack
