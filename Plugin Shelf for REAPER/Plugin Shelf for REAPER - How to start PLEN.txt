@@ -23,7 +23,9 @@ INSTALACJA PRZEZ REAPACK (zamiast kroków 1-5 i 7)
    e) Wybierz JEDEN sposób instalacji. Kopia ręczna i kopia z ReaPacka to dwa
       osobne skrypty z osobnymi danymi (każdy ma własną półkę). Przenosząc się
       na ReaPack, skopiuj przy zamkniętym Plugin Shelf plik "user_plugins_3.x.lua"
-      ze starego folderu do nowego.
+      ze starego folderu do nowego. Potem usuń starą kopię (folder, akcje,
+      przycisk na pasku) - Plugin Shelf 3.7.94+ nie uruchomi się z drugiego
+      folderu, gdy pierwsza kopia już działa (pokaże komunikat).
    Licencja (krok 6), kreator kategorii (krok 8) i ikona paska narzędzi (krok 9 -
    z paczki ze sklepu) działają tak samo.
 
@@ -145,7 +147,9 @@ INSTALLING WITH REAPACK (instead of steps 1-5 and 7)
    e) Pick ONE way of installing. The manual copy and the ReaPack copy are two
       separate scripts with separate data (each has its own shelf). When you move
       to ReaPack, copy "user_plugins_3.x.lua" from the old folder to the new one
-      while Plugin Shelf is closed.
+      while Plugin Shelf is closed. Then delete the old copy (folder, actions,
+      toolbar button) - Plugin Shelf 3.7.94+ does not start from a second
+      folder while the first copy is running (it shows a message).
    License (step 6), the categories wizard (step 8) and the toolbar icon (step 9 -
    from the shop download) work the same way.
 

@@ -40,8 +40,21 @@ Manuals and toolbar icon: in the Gumroad download.
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.7.93" author="Emelowsky" time="2026-11-04T20:49:08Z">
-        <changelog><![CDATA[v3.7.93
+      <version name="3.7.94" author="Emelowsky" time="2026-11-05T23:10:43Z">
+        <changelog><![CDATA[v3.7.94
+- Only one running copy: if Plugin Shelf already runs from another folder (manual install and ReaPack), the second copy does not start and shows a message instead. Moving to ReaPack? Remove the old manual copy from Scripts/Plugin Shelf for REAPER/
+- About: clickable link to emelowsky.com/plugins (all scripts, manuals and videos)
+- Opens much faster in big sessions (about 0.2 s instead of about 2 s in a 90-track session with many windows open)
+- Override 2.4: when Plugin Shelf is already open, the FX button just brings its window to the front (before, it closed Plugin Shelf and started it again); the Plugin Shelf window also comes up above an "FX: Track" window that is set to stay on top, and clicking the Plugin Shelf window always brings it to the front (also after a message)
+- Plugins and FX chains can now be inserted on the master track: a selected master (alone or together with other tracks) is a target like any other track - tiles, Create chain and Presets (before, the script said "Select a track or item first")
+- Monitoring FX (after the master in the mixer): when the "FX: Monitoring" window is open and was the last FX window you clicked, a tile inserts there; you can also right-click a tile > "Insert into Monitoring FX"
+- Clicking a tile again always adds another instance of the plugin
+- The "Select a track or item first" message no longer hides behind the Plugin Shelf window when it is set to stay on top; the same for windows that show up while a plugin is inserted (the plugin's own activation or registration window, REAPER's load error)
+- New toggle next to Auto-float: "Close after insert" - the Plugin Shelf window closes after you insert a plugin or a chain
+- Right-click a tile, then press Delete or Backspace to delete the plugin
+- Better automatic icon matching: other vendor spellings ("kHs" = Kilohearts, Acqua and "...ZL" = Acustica, "iZotope, Inc.", Cockos = Reaper and more) and other versions of the same plugin (RX 11 gets the RX10 icon)
+
+v3.7.93
 - REAPER dialogs (e.g. the question about terminating the script when you run it again on REAPER 6) always stay above the Plugin Shelf windows, also when you click a Plugin Shelf window and with "Always on top" on or off
 
 v3.7.92
@@ -82,7 +95,7 @@ All products: https://emelowsky.gumroad.com
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.0" author="Emelowsky" time="2026-11-04T20:49:08Z">
+      <version name="1.0" author="Emelowsky" time="2026-11-05T23:10:43Z">
         <changelog><![CDATA[v1.0
 Icon pack for Plugin Shelf for REAPER: 4125 plugin icons.]]></changelog>
         <source file="EmelowskyFX - AIR CHORUS.png">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/icons/EmelowskyFX%20-%20AIR%20CHORUS.png</source>
@@ -4240,8 +4253,21 @@ Manuals and toolbar icon: in the Gumroad download.
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.7.93" author="Emelowsky" time="2026-11-04T20:49:08Z">
-        <changelog><![CDATA[v3.7.93
+      <version name="3.7.94" author="Emelowsky" time="2026-11-05T23:10:43Z">
+        <changelog><![CDATA[v3.7.94
+- Only one running copy: if Plugin Shelf already runs from another folder (manual install and ReaPack), the second copy does not start and shows a message instead. Moving to ReaPack? Remove the old manual copy from Scripts/Plugin Shelf for REAPER/
+- About: clickable link to emelowsky.com/plugins (all scripts, manuals and videos)
+- Opens much faster in big sessions (about 0.2 s instead of about 2 s in a 90-track session with many windows open)
+- Override 2.4: when Plugin Shelf is already open, the FX button just brings its window to the front (before, it closed Plugin Shelf and started it again); the Plugin Shelf window also comes up above an "FX: Track" window that is set to stay on top, and clicking the Plugin Shelf window always brings it to the front (also after a message)
+- Plugins and FX chains can now be inserted on the master track: a selected master (alone or together with other tracks) is a target like any other track - tiles, Create chain and Presets (before, the script said "Select a track or item first")
+- Monitoring FX (after the master in the mixer): when the "FX: Monitoring" window is open and was the last FX window you clicked, a tile inserts there; you can also right-click a tile > "Insert into Monitoring FX"
+- Clicking a tile again always adds another instance of the plugin
+- The "Select a track or item first" message no longer hides behind the Plugin Shelf window when it is set to stay on top; the same for windows that show up while a plugin is inserted (the plugin's own activation or registration window, REAPER's load error)
+- New toggle next to Auto-float: "Close after insert" - the Plugin Shelf window closes after you insert a plugin or a chain
+- Right-click a tile, then press Delete or Backspace to delete the plugin
+- Better automatic icon matching: other vendor spellings ("kHs" = Kilohearts, Acqua and "...ZL" = Acustica, "iZotope, Inc.", Cockos = Reaper and more) and other versions of the same plugin (RX 11 gets the RX10 icon)
+
+v3.7.93
 - REAPER dialogs (e.g. the question about terminating the script when you run it again on REAPER 6) always stay above the Plugin Shelf windows, also when you click a Plugin Shelf window and with "Always on top" on or off
 
 v3.7.92
@@ -4293,7 +4319,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.12" author="Emelowsky" time="2026-11-04T20:49:08Z">
+      <version name="3.12" author="Emelowsky" time="2026-11-05T23:10:43Z">
         <changelog><![CDATA[v3.12
 - First release on ReaPack
 - Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
@@ -4340,7 +4366,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.12" author="Emelowsky" time="2026-11-04T20:49:08Z">
+      <version name="3.12" author="Emelowsky" time="2026-11-05T23:10:43Z">
         <changelog><![CDATA[v3.12
 - First release on ReaPack
 - Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
@@ -4387,7 +4413,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="2.2.0" author="Emelowsky" time="2026-11-04T20:49:08Z">
+      <version name="2.2.0" author="Emelowsky" time="2026-11-05T23:10:43Z">
         <changelog><![CDATA[v2.2.0
 - First release on ReaPack
 - Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
@@ -4434,7 +4460,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="2.2.0" author="Emelowsky" time="2026-11-04T20:49:08Z">
+      <version name="2.2.0" author="Emelowsky" time="2026-11-05T23:10:43Z">
         <changelog><![CDATA[v2.2.0
 - First release on ReaPack
 - Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
@@ -4480,7 +4506,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7. For REAPER 6 u
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.0.3" author="Emelowsky" time="2026-11-04T20:49:08Z">
+      <version name="1.0.3" author="Emelowsky" time="2026-11-05T23:10:43Z">
         <changelog><![CDATA[v1.0.3
 - REAPER dialogs (e.g. the question about terminating the script when you run it again on REAPER 6) always stay above the counter and the Marker Tracker windows, also when you click the counter
 
@@ -4532,7 +4558,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7. For REAPER 6 u
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.0.3" author="Emelowsky" time="2026-11-04T20:49:08Z">
+      <version name="1.0.3" author="Emelowsky" time="2026-11-05T23:10:43Z">
         <changelog><![CDATA[v1.0.3
 - REAPER dialogs (e.g. the question about terminating the script when you run it again on REAPER 6) always stay above the counter and the Marker Tracker windows, also when you click the counter
 
@@ -4583,7 +4609,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.1.0" author="Emelowsky" time="2026-11-04T20:49:08Z">
+      <version name="1.1.0" author="Emelowsky" time="2026-11-05T23:10:43Z">
         <changelog><![CDATA[v1.1.0
 - New name: Track Drop for REAPER (formerly Move track to folder) - your settings stay
 - First release on ReaPack
@@ -4630,7 +4656,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.1.0" author="Emelowsky" time="2026-11-04T20:49:08Z">
+      <version name="1.1.0" author="Emelowsky" time="2026-11-05T23:10:43Z">
         <changelog><![CDATA[v1.1.0
 - New name: Track Drop for REAPER (formerly Move track to folder) - your settings stay
 - First release on ReaPack
@@ -4675,7 +4701,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.1.0" author="Emelowsky" time="2026-11-04T20:49:08Z">
+      <version name="1.1.0" author="Emelowsky" time="2026-11-05T23:10:43Z">
         <changelog><![CDATA[v1.1.0
 - New name: Item Drop for REAPER (formerly Move item from track to another track) - your settings stay
 - First release on ReaPack
@@ -4720,7 +4746,7 @@ Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 i
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.1.0" author="Emelowsky" time="2026-11-04T20:49:08Z">
+      <version name="1.1.0" author="Emelowsky" time="2026-11-05T23:10:43Z">
         <changelog><![CDATA[v1.1.0
 - New name: Item Drop for REAPER (formerly Move item from track to another track) - your settings stay
 - First release on ReaPack
