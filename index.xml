@@ -4313,14 +4313,22 @@ Group tracks without losing your mix. REAPER's native grouping moves linked fade
 Free DEMO with no time limit (2 active groups); a license key from Gumroad unlocks the full version in the same files.\par
 Shop, manuals (PDF, PL + EN) and the toolbar icon: https://emelowsky.gumroad.com/l/fast-group\par
 All Emelowsky Plugins scripts, manuals and videos: https://emelowsky.com/plugins/\par
-Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Fast Group (REAPER 6, Lua 5.3)" package.
+Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Fast Group (REAPER 6, Lua 5.3)" package.\par
+Screen scaling above 100% (e.g. laptops): REAPER HiDPI mode must be "Multimonitor aware" (Preferences > General > Advanced UI/system tweaks), then restart REAPER.
 }]]></description>
         <link rel="website" href="https://emelowsky.gumroad.com/l/fast-group">Buy Fast Group (free demo + Full license)</link>
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.12" author="Emelowsky" time="2026-11-05T23:10:43Z">
-        <changelog><![CDATA[v3.12
+      <version name="3.13" author="Emelowsky" time="2026-11-08T20:31:59Z">
+        <changelog><![CDATA[v3.13
+- Screen scaling above 100% with REAPER in an unsupported HiDPI mode: instead of a technical error, Fast Group shows what to set ("Multimonitor aware" mode, REAPER restart, Windows compatibility settings) and can open REAPER Preferences right away
+- Only one running copy: if Fast Group already runs from another folder (manual install and ReaPack), the second copy shows a message instead of starting
+- The Manager and the quick popup open much faster (no more ~1 s delay)
+- Popups no longer end up off-screen with monitors at different scaling
+- About: link to emelowsky.com/plugins
+
+v3.12
 - First release on ReaPack
 - Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
 - "Always on top" only over REAPER: when you click another program, the Fast Group windows go behind it (Windows)
@@ -4360,14 +4368,22 @@ Group tracks without losing your mix. REAPER's native grouping moves linked fade
 Free DEMO with no time limit (2 active groups); a license key from Gumroad unlocks the full version in the same files.\par
 Shop, manuals (PDF, PL + EN) and the toolbar icon: https://emelowsky.gumroad.com/l/fast-group\par
 All Emelowsky Plugins scripts, manuals and videos: https://emelowsky.com/plugins/\par
-Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Fast Group (REAPER 6, Lua 5.3)" package.
+Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Fast Group (REAPER 6, Lua 5.3)" package.\par
+Screen scaling above 100% (e.g. laptops): REAPER HiDPI mode must be "Multimonitor aware" (Preferences > General > Advanced UI/system tweaks), then restart REAPER.
 }]]></description>
         <link rel="website" href="https://emelowsky.gumroad.com/l/fast-group">Buy Fast Group (free demo + Full license)</link>
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.12" author="Emelowsky" time="2026-11-05T23:10:43Z">
-        <changelog><![CDATA[v3.12
+      <version name="3.13" author="Emelowsky" time="2026-11-08T20:31:59Z">
+        <changelog><![CDATA[v3.13
+- Screen scaling above 100% with REAPER in an unsupported HiDPI mode: instead of a technical error, Fast Group shows what to set ("Multimonitor aware" mode, REAPER restart, Windows compatibility settings) and can open REAPER Preferences right away
+- Only one running copy: if Fast Group already runs from another folder (manual install and ReaPack), the second copy shows a message instead of starting
+- The Manager and the quick popup open much faster (no more ~1 s delay)
+- Popups no longer end up off-screen with monitors at different scaling
+- About: link to emelowsky.com/plugins
+
+v3.12
 - First release on ReaPack
 - Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
 - "Always on top" only over REAPER: when you click another program, the Fast Group windows go behind it (Windows)

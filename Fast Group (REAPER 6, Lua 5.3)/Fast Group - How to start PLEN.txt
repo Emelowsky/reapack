@@ -25,6 +25,10 @@ INSTALACJA PRZEZ REAPACK (zamiast kroków 1-4)
       instaluje bez akcji, tak jak trzeba. Skróty (krok 4e i 5) ustawiasz tak samo.
    e) Wybierz JEDEN sposób instalacji - kopia ręczna i kopia z ReaPacka to dwa
       osobne zestawy akcji. Grupy są zapisane w projekcie, więc działają w obu.
+      Przechodzisz z instalacji ręcznej na ReaPack? Usuń starą kopię: folder
+      .../REAPER/Scripts/Fast Group/ i jej akcje z Action List (Remove).
+      Dwie kopie naraz nie działają - druga pokaże tylko komunikat, że
+      Fast Group działa już z innej lokalizacji.
    Licencja (krok 6) i ikona paska narzędzi (krok 7 - z paczki ze sklepu)
    działają tak samo.
 
@@ -60,7 +64,7 @@ INSTALACJA PRZEZ REAPACK (zamiast kroków 1-4)
           otwierania całego Managera. Oba okna mogą działać RÓWNOCZEŚNIE
           i widzą te same grupy na bieżąco.
        UWAGA: NIE wczytuj do Action List pliku "...Core.lua" - to tylko
-          biblioteka; uruchomiony jako akcja nic nie otwiera.
+          biblioteka; uruchomiony jako akcja pokazuje tylko komunikat.
        e) Każdemu z dwóch skryptów przypisz WŁASNY, INNY skrót klawiszowy
           (Actions → wybierz skrypt → "Add..."). Skrót włącza i wyłącza
           dane okno na przemian, dokładnie jak natywne okna REAPERa.
@@ -114,6 +118,15 @@ INSTALACJA PRZEZ REAPACK (zamiast kroków 1-4)
       "Script: Emelowsky - Fast Group (manager).lua" → zaznacz ją na liście
       → Icon... → wybierz "Emelowsky - Fast Group" → Save.
 
+8. Ekran ze skalowaniem powyżej 100% (częste w laptopach)
+   REAPER musi działać w trybie HiDPI "Multimonitor aware":
+   Options → Preferences → General → Advanced UI/system tweaks → HiDPI mode:
+   "Multimonitor aware" (albo "Multimonitor aware v2"), potem zamknij i otwórz
+   REAPERa ponownie. W innym trybie ReaImGui nie otworzy okna - Fast Group
+   pokaże wtedy okno "Fast Group – skalowanie ekranu (HiDPI)" z instrukcją
+   (przycisk "Tak" otwiera Preferencje). Pozostałe okna błędów (ReaImGui,
+   ReaScript) zamknij - rada o zmianie silnika graficznego nie pomoże.
+
 Gotowe — możesz uruchomić Fast Group. Pełna instrukcja obsługi
 (wszystkie funkcje, aktywacja licencji, personalizacja, rozwiązywanie
 problemów) znajduje się w osobnym manualu dołączonym do
@@ -145,6 +158,10 @@ INSTALLING WITH REAPACK (instead of steps 1-4)
    e) Pick ONE way of installing - the manual copy and the ReaPack copy are two
       separate sets of actions. The groups are saved in the project, so they
       work with both.
+      Moving from a manual install to ReaPack? Remove the old copy: the
+      .../REAPER/Scripts/Fast Group/ folder and its actions in the Action List
+      (Remove). Two copies cannot run at once - the second one only shows a
+      message that Fast Group is already running from another location.
    The license (step 6) and the toolbar icon (step 7 - from the shop download)
    work the same way.
 
@@ -181,7 +198,7 @@ INSTALLING WITH REAPACK (instead of steps 1-4)
           groups without opening the full Manager. Both windows can run
           at the SAME TIME and stay in sync with each other.
        NOTE: do NOT load the "...Core.lua" file into the Action List - it is
-          only a library; run as an action it opens nothing.
+          only a library; run as an action it only shows a message.
        e) Assign each of the two scripts its OWN, DIFFERENT keyboard
           shortcut (Actions → select the script → "Add..."). The
           shortcut toggles that window on and off, just like REAPER's
@@ -236,6 +253,15 @@ INSTALLING WITH REAPACK (instead of steps 1-4)
    b) Right-click the toolbar → Customize toolbar... → Add... → pick the action
       "Script: Emelowsky - Fast Group (manager).lua" → select it in the list
       → Icon... → choose "Emelowsky - Fast Group" → Save.
+
+8. Screen scaling above 100% (common on laptops)
+   REAPER must run in the "Multimonitor aware" HiDPI mode:
+   Options → Preferences → General → Advanced UI/system tweaks → HiDPI mode:
+   "Multimonitor aware" (or "Multimonitor aware v2"), then close REAPER and
+   open it again. In any other mode ReaImGui cannot open the window - Fast Group
+   then shows the "Fast Group - display scaling (HiDPI)" window with the steps
+   ("Yes" opens the Preferences). Close the other error windows (ReaImGui,
+   ReaScript) - the advice about the graphics renderer does not help here.
 
 Done — you're ready to launch Fast Group. The full user guide (every
 feature, license activation, customization, troubleshooting) is in the
