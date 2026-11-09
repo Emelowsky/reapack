@@ -33,6 +33,7 @@ Runs as a free DEMO with no time limit (4 categories, 5 plugins each).\par
 Buy the Full license on Gumroad: https://emelowsky.gumroad.com/l/plugin-shelf - the key unlocks this same script, nothing to reinstall.\par
 All Emelowsky Plugins scripts, manuals and videos: https://emelowsky.com/plugins/\par
 Requires ReaImGui (ReaPack). REAPER 7. For REAPER 6 use the Lua 5.3 package from the shop.\par
+Screen scaling above 100% (e.g. laptops): REAPER HiDPI mode must be "Multimonitor aware" (Preferences > General > Advanced UI/system tweaks), then restart REAPER.\par
 Icons: also install "Emelowsky - Plugin Shelf for REAPER (icon pack)" from this repository (4000+ plugin icons, downloaded once).\par
 Manuals and toolbar icon: in the Gumroad download.
 }]]></description>
@@ -40,8 +41,15 @@ Manuals and toolbar icon: in the Gumroad download.
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.7.94" author="Emelowsky" time="2026-11-05T23:10:43Z">
-        <changelog><![CDATA[v3.7.94
+      <version name="3.7.95" author="Emelowsky" time="2026-11-09T06:59:12Z">
+        <changelog><![CDATA[v3.7.95
+- Screen scaling above 100% with REAPER in an unsupported HiDPI mode: instead of a technical error, Plugin Shelf shows what to set ("Multimonitor aware" mode, REAPER restart, Windows compatibility settings) and can open REAPER Preferences right away
+- Popups no longer end up off-screen with monitors at different scaling
+- Popups are on top right away (they no longer land under the main window for a moment)
+- With two REAPERs running, the script in the other one no longer takes the mouse and selection away
+- Options > Maintenance: "Remove missing plugins" removes plugins uninstalled from REAPER from the shelf (list to confirm, undoable)
+
+v3.7.94
 - Only one running copy: if Plugin Shelf already runs from another folder (manual install and ReaPack), the second copy does not start and shows a message instead. Moving to ReaPack? Remove the old manual copy from Scripts/Plugin Shelf for REAPER/
 - About: clickable link to emelowsky.com/plugins (all scripts, manuals and videos)
 - Opens much faster in big sessions (about 0.2 s instead of about 2 s in a 90-track session with many windows open)
@@ -95,7 +103,7 @@ All products: https://emelowsky.gumroad.com
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.0" author="Emelowsky" time="2026-11-05T23:10:43Z">
+      <version name="1.0" author="Emelowsky" time="2026-11-09T06:59:12Z">
         <changelog><![CDATA[v1.0
 Icon pack for Plugin Shelf for REAPER: 4125 plugin icons.]]></changelog>
         <source file="EmelowskyFX - AIR CHORUS.png">https://raw.githubusercontent.com/Emelowsky/reapack/main/Plugin%20Shelf%20for%20REAPER/icons/EmelowskyFX%20-%20AIR%20CHORUS.png</source>
@@ -4246,6 +4254,7 @@ Runs as a free DEMO with no time limit (4 categories, 5 plugins each).\par
 Buy the Full license on Gumroad: https://emelowsky.gumroad.com/l/plugin-shelf - the key unlocks this same script, nothing to reinstall.\par
 All Emelowsky Plugins scripts, manuals and videos: https://emelowsky.com/plugins/\par
 Requires ReaImGui (ReaPack). REAPER 7. For REAPER 6 use the Lua 5.3 package from the shop.\par
+Screen scaling above 100% (e.g. laptops): REAPER HiDPI mode must be "Multimonitor aware" (Preferences > General > Advanced UI/system tweaks), then restart REAPER.\par
 Icons: also install "Emelowsky - Plugin Shelf for REAPER (icon pack)" from this repository (4000+ plugin icons, downloaded once).\par
 Manuals and toolbar icon: in the Gumroad download.
 }]]></description>
@@ -4253,8 +4262,15 @@ Manuals and toolbar icon: in the Gumroad download.
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="3.7.94" author="Emelowsky" time="2026-11-05T23:10:43Z">
-        <changelog><![CDATA[v3.7.94
+      <version name="3.7.95" author="Emelowsky" time="2026-11-09T06:59:12Z">
+        <changelog><![CDATA[v3.7.95
+- Screen scaling above 100% with REAPER in an unsupported HiDPI mode: instead of a technical error, Plugin Shelf shows what to set ("Multimonitor aware" mode, REAPER restart, Windows compatibility settings) and can open REAPER Preferences right away
+- Popups no longer end up off-screen with monitors at different scaling
+- Popups are on top right away (they no longer land under the main window for a moment)
+- With two REAPERs running, the script in the other one no longer takes the mouse and selection away
+- Options > Maintenance: "Remove missing plugins" removes plugins uninstalled from REAPER from the shelf (list to confirm, undoable)
+
+v3.7.94
 - Only one running copy: if Plugin Shelf already runs from another folder (manual install and ReaPack), the second copy does not start and shows a message instead. Moving to ReaPack? Remove the old manual copy from Scripts/Plugin Shelf for REAPER/
 - About: clickable link to emelowsky.com/plugins (all scripts, manuals and videos)
 - Opens much faster in big sessions (about 0.2 s instead of about 2 s in a 90-track session with many windows open)

@@ -121,6 +121,15 @@ INSTALACJA PRZEZ REAPACK (zamiast kroków 1-5 i 7)
       "Script: Emelowsky - Plugin Shelf for REAPER.lua" → zaznacz ją na liście
       → Icon... → wybierz "Emelowsky - Plugin Shelf" → Save.
 
+10. Ekran ze skalowaniem powyżej 100% (częste w laptopach)
+   REAPER musi działać w trybie HiDPI "Multimonitor aware":
+   Options → Preferences → General → Advanced UI/system tweaks → HiDPI mode:
+   "Multimonitor aware" (albo "Multimonitor aware v2"), potem zamknij i otwórz
+   REAPERa ponownie. W innym trybie ReaImGui nie otworzy okna - Plugin Shelf
+   pokaże wtedy okno "Plugin Shelf – skalowanie ekranu (HiDPI)" z instrukcją
+   (przycisk "Tak" otwiera Preferencje). Pozostałe okna błędów (ReaImGui,
+   ReaScript) zamknij - rada o zmianie silnika graficznego nie pomoże.
+
 Gotowe — możesz uruchomić Plugin Shelf. Pełna instrukcja obsługi (wszystkie
 funkcje, personalizacja, licencja, rozwiązywanie problemów) znajduje się
 w osobnym manualu dołączonym do pobrania ("Plugin Shelf for REAPER - Manual").
@@ -245,6 +254,15 @@ INSTALLING WITH REAPACK (instead of steps 1-5 and 7)
    b) Right-click the toolbar → Customize toolbar... → Add... → pick the action
       "Script: Emelowsky - Plugin Shelf for REAPER.lua" → select it in the list
       → Icon... → choose "Emelowsky - Plugin Shelf" → Save.
+
+10. Screen scaling above 100% (common on laptops)
+   REAPER must run in the "Multimonitor aware" HiDPI mode:
+   Options → Preferences → General → Advanced UI/system tweaks → HiDPI mode:
+   "Multimonitor aware" (or "Multimonitor aware v2"), then close REAPER and
+   open it again. In any other mode ReaImGui cannot open the window - Plugin
+   Shelf then shows the "Plugin Shelf - display scaling (HiDPI)" window with
+   the steps ("Yes" opens the Preferences). Close the other error windows
+   (ReaImGui, ReaScript) - the advice about the graphics renderer does not help.
 
 Done — you're ready to launch Plugin Shelf. The full user guide (every
 feature, visual customization, license, troubleshooting) is in the separate
