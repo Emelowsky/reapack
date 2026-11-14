@@ -4439,14 +4439,26 @@ Keep multitrack takes in sync while you edit. Link items (e.g. the same performa
 Free DEMO with no time limit (2 groups with 6 tracks/items each); a license key from Gumroad unlocks the full version in the same file.\par
 Shop, manuals (PDF, PL + EN) and the toolbar icon: https://emelowsky.gumroad.com/l/individual-take-sync-group\par
 All Emelowsky Plugins scripts, manuals and videos: https://emelowsky.com/plugins/\par
-Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Individual Take Sync Group (REAPER 6, Lua 5.3)" package.
+Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Individual Take Sync Group (REAPER 6, Lua 5.3)" package.\par
+Screen scaling above 100% (e.g. laptops): REAPER HiDPI mode must be "Multimonitor aware" (Preferences > General > Advanced UI/system tweaks), then restart REAPER.
 }]]></description>
         <link rel="website" href="https://emelowsky.gumroad.com/l/individual-take-sync-group">Buy Individual Take Sync Group (free demo + Full license)</link>
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="2.2.0" author="Emelowsky" time="2026-11-05T23:10:43Z">
-        <changelog><![CDATA[v2.2.0
+      <version name="2.2.1" author="Emelowsky" time="2026-11-14T21:08:19Z">
+        <changelog><![CDATA[v2.2.1
+- Large projects: the script only works when something changes in the project, so the screen no longer stutters
+- New option (Options > General, off by default): clicking an item selects its section between the cuts on all tracks of the group (e.g. when aligning drums to the grid); Ctrl+click adds another section, marquee selection works too
+- Screen scaling above 100% with REAPER in an unsupported HiDPI mode: instead of a technical error, Individual Take Sync Group shows what to set ("Multimonitor aware" mode, REAPER restart, Windows compatibility settings) and can open REAPER Preferences right away
+- Popups no longer end up off-screen with monitors at different scaling
+- The window opens instantly (no more 1-2 s delay with many windows open in the system)
+- Only one running copy: with a manual install and the ReaPack one, the second copy shows a message instead of starting
+- About: link to all Emelowsky Plugins scripts, manuals and videos
+- Popups are on top right away (they no longer land under the main window for a moment)
+- With two REAPERs running, the script in the other one no longer takes the mouse and selection away
+
+v2.2.0
 - First release on ReaPack
 - Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
 - "Always on top" only over REAPER: when you click another program, the script windows go behind it (Windows)
@@ -4486,14 +4498,26 @@ Keep multitrack takes in sync while you edit. Link items (e.g. the same performa
 Free DEMO with no time limit (2 groups with 6 tracks/items each); a license key from Gumroad unlocks the full version in the same file.\par
 Shop, manuals (PDF, PL + EN) and the toolbar icon: https://emelowsky.gumroad.com/l/individual-take-sync-group\par
 All Emelowsky Plugins scripts, manuals and videos: https://emelowsky.com/plugins/\par
-Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Individual Take Sync Group (REAPER 6, Lua 5.3)" package.
+Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Individual Take Sync Group (REAPER 6, Lua 5.3)" package.\par
+Screen scaling above 100% (e.g. laptops): REAPER HiDPI mode must be "Multimonitor aware" (Preferences > General > Advanced UI/system tweaks), then restart REAPER.
 }]]></description>
         <link rel="website" href="https://emelowsky.gumroad.com/l/individual-take-sync-group">Buy Individual Take Sync Group (free demo + Full license)</link>
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="2.2.0" author="Emelowsky" time="2026-11-05T23:10:43Z">
-        <changelog><![CDATA[v2.2.0
+      <version name="2.2.1" author="Emelowsky" time="2026-11-14T21:08:19Z">
+        <changelog><![CDATA[v2.2.1
+- Large projects: the script only works when something changes in the project, so the screen no longer stutters
+- New option (Options > General, off by default): clicking an item selects its section between the cuts on all tracks of the group (e.g. when aligning drums to the grid); Ctrl+click adds another section, marquee selection works too
+- Screen scaling above 100% with REAPER in an unsupported HiDPI mode: instead of a technical error, Individual Take Sync Group shows what to set ("Multimonitor aware" mode, REAPER restart, Windows compatibility settings) and can open REAPER Preferences right away
+- Popups no longer end up off-screen with monitors at different scaling
+- The window opens instantly (no more 1-2 s delay with many windows open in the system)
+- Only one running copy: with a manual install and the ReaPack one, the second copy shows a message instead of starting
+- About: link to all Emelowsky Plugins scripts, manuals and videos
+- Popups are on top right away (they no longer land under the main window for a moment)
+- With two REAPERs running, the script in the other one no longer takes the mouse and selection away
+
+v2.2.0
 - First release on ReaPack
 - Licensing through the Emelowsky license server: product key from the customer panel, license transfers in the same panel
 - "Always on top" only over REAPER: when you click another program, the script windows go behind it (Windows)
