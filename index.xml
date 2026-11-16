@@ -4659,14 +4659,22 @@ Select tracks in REAPER, click a folder in the Track Drop list and they go to it
 Free DEMO with no time limit (3 tracks per move); a license key from Gumroad unlocks the full version in the same file.\par
 Shop, manuals (PDF, PL + EN) and the toolbar icon: https://emelowsky.gumroad.com/l/track-drop\par
 All Emelowsky Plugins scripts: https://emelowsky.com/plugins/\par
-Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Track Drop for REAPER (REAPER 6, Lua 5.3)" package.
+Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Track Drop for REAPER (REAPER 6, Lua 5.3)" package.\par
+Screen scaling above 100% (e.g. laptops): REAPER HiDPI mode must be "Multimonitor aware" (Preferences > General > Advanced UI/system tweaks), then restart REAPER.
 }]]></description>
         <link rel="website" href="https://emelowsky.gumroad.com/l/track-drop">Buy Track Drop (free demo + Full license)</link>
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.1.0" author="Emelowsky" time="2026-11-05T23:10:43Z">
-        <changelog><![CDATA[v1.1.0
+      <version name="1.1.1" author="Emelowsky" time="2026-11-16T07:02:36Z">
+        <changelog><![CDATA[v1.1.1
+- Screen scaling above 100% with REAPER in an unsupported HiDPI mode: instead of a technical error, Track Drop shows what to set ("Multimonitor aware" mode, REAPER restart, Windows compatibility settings) and can open REAPER Preferences right away
+- Popups no longer end up off-screen with monitors at different scaling
+- The window opens instantly (no more 1-2 s delay with many windows open in the system)
+- About: link to all Emelowsky Plugins scripts, manuals and videos
+- Popups are on top right away (they no longer land under the main window for a moment)
+
+v1.1.0
 - New name: Track Drop for REAPER (formerly Move track to folder) - your settings stay
 - First release on ReaPack
 - One file: runs as a free DEMO (3 tracks per move), a license key unlocks the full version
@@ -4706,14 +4714,22 @@ Select tracks in REAPER, click a folder in the Track Drop list and they go to it
 Free DEMO with no time limit (3 tracks per move); a license key from Gumroad unlocks the full version in the same file.\par
 Shop, manuals (PDF, PL + EN) and the toolbar icon: https://emelowsky.gumroad.com/l/track-drop\par
 All Emelowsky Plugins scripts: https://emelowsky.com/plugins/\par
-Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Track Drop for REAPER (REAPER 6, Lua 5.3)" package.
+Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Track Drop for REAPER (REAPER 6, Lua 5.3)" package.\par
+Screen scaling above 100% (e.g. laptops): REAPER HiDPI mode must be "Multimonitor aware" (Preferences > General > Advanced UI/system tweaks), then restart REAPER.
 }]]></description>
         <link rel="website" href="https://emelowsky.gumroad.com/l/track-drop">Buy Track Drop (free demo + Full license)</link>
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.1.0" author="Emelowsky" time="2026-11-05T23:10:43Z">
-        <changelog><![CDATA[v1.1.0
+      <version name="1.1.1" author="Emelowsky" time="2026-11-16T07:02:36Z">
+        <changelog><![CDATA[v1.1.1
+- Screen scaling above 100% with REAPER in an unsupported HiDPI mode: instead of a technical error, Track Drop shows what to set ("Multimonitor aware" mode, REAPER restart, Windows compatibility settings) and can open REAPER Preferences right away
+- Popups no longer end up off-screen with monitors at different scaling
+- The window opens instantly (no more 1-2 s delay with many windows open in the system)
+- About: link to all Emelowsky Plugins scripts, manuals and videos
+- Popups are on top right away (they no longer land under the main window for a moment)
+
+v1.1.0
 - New name: Track Drop for REAPER (formerly Move track to folder) - your settings stay
 - First release on ReaPack
 - One file: runs as a free DEMO (3 tracks per move), a license key unlocks the full version
@@ -4751,14 +4767,22 @@ Select items in REAPER, click a track in the Item Drop list and the items move t
 Free DEMO with no time limit (3 items per move); a license key from Gumroad unlocks the full version in the same file.\par
 Shop, manuals (PDF, PL + EN) and the toolbar icon: https://emelowsky.gumroad.com/l/item-drop\par
 All Emelowsky Plugins scripts: https://emelowsky.com/plugins/\par
-Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Item Drop for REAPER (REAPER 6, Lua 5.3)" package.
+Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Item Drop for REAPER (REAPER 6, Lua 5.3)" package.\par
+Screen scaling above 100% (e.g. laptops): REAPER HiDPI mode must be "Multimonitor aware" (Preferences > General > Advanced UI/system tweaks), then restart REAPER.
 }]]></description>
         <link rel="website" href="https://emelowsky.gumroad.com/l/item-drop">Buy Item Drop (free demo + Full license)</link>
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.1.0" author="Emelowsky" time="2026-11-05T23:10:43Z">
-        <changelog><![CDATA[v1.1.0
+      <version name="1.1.1" author="Emelowsky" time="2026-11-16T07:02:36Z">
+        <changelog><![CDATA[v1.1.1
+- Screen scaling above 100% with REAPER in an unsupported HiDPI mode: instead of a technical error, Item Drop shows what to set ("Multimonitor aware" mode, REAPER restart, Windows compatibility settings) and can open REAPER Preferences right away
+- Popups no longer end up off-screen with monitors at different scaling
+- The window opens instantly (no more 1-2 s delay with many windows open in the system)
+- About: link to all Emelowsky Plugins scripts, manuals and videos
+- Popups are on top right away (they no longer land under the main window for a moment)
+
+v1.1.0
 - New name: Item Drop for REAPER (formerly Move item from track to another track) - your settings stay
 - First release on ReaPack
 - One file: runs as a free DEMO (3 items per move), a license key unlocks the full version
@@ -4796,14 +4820,22 @@ Select items in REAPER, click a track in the Item Drop list and the items move t
 Free DEMO with no time limit (3 items per move); a license key from Gumroad unlocks the full version in the same file.\par
 Shop, manuals (PDF, PL + EN) and the toolbar icon: https://emelowsky.gumroad.com/l/item-drop\par
 All Emelowsky Plugins scripts: https://emelowsky.com/plugins/\par
-Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Item Drop for REAPER (REAPER 6, Lua 5.3)" package.
+Requires ReaImGui (ReaPack). Optional: js_ReaScriptAPI. REAPER 7; for REAPER 6 install the "Item Drop for REAPER (REAPER 6, Lua 5.3)" package.\par
+Screen scaling above 100% (e.g. laptops): REAPER HiDPI mode must be "Multimonitor aware" (Preferences > General > Advanced UI/system tweaks), then restart REAPER.
 }]]></description>
         <link rel="website" href="https://emelowsky.gumroad.com/l/item-drop">Buy Item Drop (free demo + Full license)</link>
         <link rel="website" href="https://emelowsky.com/plugins/">All Emelowsky Plugins scripts</link>
         <link rel="website" href="https://www.youtube.com/@EmelowskyPlugins">Tutorials (YouTube)</link>
       </metadata>
-      <version name="1.1.0" author="Emelowsky" time="2026-11-05T23:10:43Z">
-        <changelog><![CDATA[v1.1.0
+      <version name="1.1.1" author="Emelowsky" time="2026-11-16T07:02:36Z">
+        <changelog><![CDATA[v1.1.1
+- Screen scaling above 100% with REAPER in an unsupported HiDPI mode: instead of a technical error, Item Drop shows what to set ("Multimonitor aware" mode, REAPER restart, Windows compatibility settings) and can open REAPER Preferences right away
+- Popups no longer end up off-screen with monitors at different scaling
+- The window opens instantly (no more 1-2 s delay with many windows open in the system)
+- About: link to all Emelowsky Plugins scripts, manuals and videos
+- Popups are on top right away (they no longer land under the main window for a moment)
+
+v1.1.0
 - New name: Item Drop for REAPER (formerly Move item from track to another track) - your settings stay
 - First release on ReaPack
 - One file: runs as a free DEMO (3 items per move), a license key unlocks the full version
